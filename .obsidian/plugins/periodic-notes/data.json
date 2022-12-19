@@ -4,14 +4,14 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "format": "",
-    "template": "",
-    "folder": "",
+    "template": "Templates/daily_template.md",
+    "folder": "1_Journal/Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
-    "template": "",
-    "folder": "",
+    "template": "Templates/weekly_template.md",
+    "folder": "1_Journal/Weekly",
     "enabled": true
   },
   "monthly": {

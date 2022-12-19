@@ -3,5 +3,7 @@
   "templater-obsidian",
   "obsidian-minimal-settings",
   "obsidian-tasks-plugin",
-  "periodic-notes"
+  "periodic-notes",
+  "dataview",
+  "obsidian-citation-plugin"
 ]
