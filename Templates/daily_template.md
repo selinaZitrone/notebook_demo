@@ -7,7 +7,7 @@ Tags: dailyLog
 
 << [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>| Yesterday ]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>| Tomorrow ]] >>
 
-## 🦉 Events & meetings 
+## 🧑‍🤝‍🧑 Events & meetings 
 ```dataview
 TABLE
   title AS "topic",
@@ -18,7 +18,7 @@ WHERE contains(file.name, "{{date}}")
 SORT start DESC
 ```
 
-## ♟ Tasks
+## 🐾 Tasks
 
 #### From The past
 ```tasks

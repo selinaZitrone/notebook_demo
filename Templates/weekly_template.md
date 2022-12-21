@@ -39,7 +39,7 @@ short mode
 ### 🌴 Daily log files of the week
 ```dataview
 TABLE date, file.size
-FROM #dailyLog AND "1_Laborbuch"
+FROM #dailyLog AND "1_Journal"
 WHERE date >= date("{{monday:YYYY-MM-DD}}") AND date <= date("{{friday:YYYY-MM-DD}}")
 ```
 ### 🐘 What went well
