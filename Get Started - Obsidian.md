@@ -24,13 +24,16 @@ This is the most basic Markdown syntax:
 *italic*
 
 [A Link](https://google.com)
+
+- [ ] A task
 ```
 
 To make text bold or italic, you can also use the keyboard shortcuts you are used to from other programs: Ctrl + B/I on Windows. Have a look at the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to find more option to format text in Markdown.
 
-## Linking Files
+## Linking  Files
 
 You can link notes within your Obsidian Vault by using `[[]]`. For example, I can link to an example note from the Project folder like this: [[example]]
+You can learn how to embed files and how to link to specific sections within the [[Advanced Obsidian]] File. 
 
 ## Navigating Obsidian
 
