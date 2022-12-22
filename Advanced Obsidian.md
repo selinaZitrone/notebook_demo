@@ -37,6 +37,8 @@ Tracks numers within your note and helps to visualise them.
 
 
 ## Further markdown stuff
+### The YAML header
+
 ### Linking and embedding 
 
 Remember, you can link notes within your Obsidian Vault by using `[[]]`. For example, I can link to an example note from the Project folder like this: [[example]]

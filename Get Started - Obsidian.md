@@ -2,10 +2,9 @@ Welcome to your Obsidian Notebook. 🎉
 
 This is a basic template that helps you get started with using Obsidian to manage your notes and tasks. In the following, you find information on what was set up using communitiy plugins and obsidian settings. 
 
-For more information and inspiration on what you can do with Obsidian check out the following youtube Channels providing insights from basic to advanced use of Obsidian:
-- https://www.youtube.com/@nicolevdh
-- https://www.youtube.com/@DannyTalksTech 
-- https://www.youtube.com/@FromSergio
+For more information and inspiration on what you can do with Obsidian check out the following tutorial by Nicole van der Hoeven:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OUrOfIqvGS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Obsidian basics
 
@@ -40,14 +39,14 @@ _italic_
 
 To make text bold or italic, you can also use the keyboard shortcuts you are used to from other programs: Ctrl + B/I on Windows. Have a look at the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to find more option to format text in Markdown.
 
-## Linking  Files
+## Linking Files
 
 You can link notes within your Obsidian Vault by using `[[]]`. For example, I can link to an example note from the Project folder like this: [[example]]
 You can learn how to embed files and how to link to specific sections within the [[Advanced Obsidian]] File. 
 
-## Tags within Obsidian
+## Tags
+Another way to link files is by using Tags like #tag written as `#tag` .
 
-## The graph view
 
 ## Navigating Obsidian
 
@@ -59,7 +58,6 @@ In the figure below, you find some important sections of the Obsidian window and
 
 Check out yourself which settings you can change for your Obsidian vault. Just click on the bottom left on the gear icon to see what you can do.
 
+## The graph view
 
 ## Canvas
-
-

@@ -27,6 +27,8 @@ Check out the Plugin Website for examples: https://blacksmithgu.github.io/obsidi
 ### Emoji shortcodes
 Insert emojis in your text using the shortcodes. E.g. `:purple_heart:` for 💜 or `:see_no_evil:` for 🙈
 
+### Full calendar
+
 ### Minimal Theme Settings
 
 ### Periodic notes
@@ -39,7 +41,7 @@ The plugin helps to track tasks within your complete vault. Where ever you forma
 It will be recogniced as task. 
 
 Moreover, you can also date the tasks. If you ad a "due to"-date (by clicking in the drop down menu or ... ), the task will appear in the daily log file of the selected day. Here is an example of an open task and a fulfilled task (just click to change the state): 
-- [ ] Describe what "tasks" are 📅 2022-12-21 
+- [ ] Describe what "tasks" are 📅 2022-12-22 
 - [x] Describe what done tasks are 📅 2022-12-22 ✅ 2022-12-22
 
 ### Templater
