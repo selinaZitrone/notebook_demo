@@ -25,7 +25,6 @@ It is used within the Daily and Weekly files, e.g. [[2022-W51#🌴 Daily log fil
 Check out the Plugin Website for examples: https://blacksmithgu.github.io/obsidian-dataview/ 
 
 ### Emoji shortcodes
-
 Insert emojis in your text using the shortcodes. E.g. `:purple_heart:` for 💜 or `:see_no_evil:` for 🙈
 
 ### Minimal Theme Settings
@@ -35,16 +34,15 @@ With this plugin you can easily create and navigate between daily and weekly fil
 In the settings you can link a plugin and set the specific folder, where the new file will be created. 
 
 ### Tasks
-The plugin helps to track tasks within your complete vault. Whereever you format any text like this 
+The plugin helps to track tasks within your complete vault. Where ever you format any text like this 
 ``- [ ] task``
 It will be recogniced as task. 
 
-Moreover, you can also date the tasks. If you ad a "due to"-date (by clicking in the drop down menu or ... ), the task will appear in the daily log file of the selected day. Here is an example: 
+Moreover, you can also date the tasks. If you ad a "due to"-date (by clicking in the drop down menu or ... ), the task will appear in the daily log file of the selected day. Here is an example of an open task and a fulfilled task (just click to change the state): 
 - [ ] Describe what "tasks" are 📅 2022-12-21 
-
-
+- [x] Describe what done tasks are 📅 2022-12-22 ✅ 2022-12-22
 
 ### Templater
-
+Templater is necessary for the used templates. 
 
 
