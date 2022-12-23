@@ -1,3 +1,28 @@
+## Zotero citations
+
+The connection between your Zotero database and Obsidian is the `Library.bib` file that is located in the `3_Literature` folder. The idea is to automatically update the `Library.bib` file whenever your Zotero data base changes. This way, Obsidian always has the newest information. 
+
+### Set up Zotero and Obsidian
+
+To set this up, you have to follow these steps:
+
+1. Download and install the `Better BibTeX for Zotero` Add on. Find the installation guide and download link [here](https://retorque.re/zotero-better-bibtex/installation/)
+2. Go to `Edit -> Preferences -> Better BibTeX` and change the following settings:
+	1. In `Citation keys` create a meaningful citation key format. We have chosen the following that includes authors, short title and year ![[Pasted image 20221223115443.png]]
+	2. Configure the `Automatic export` section to export and automatically update a library to your Obsidian vault. Before you do this, go to the vault in your explorer and delete the template `Library.bib` file that we put there. In the `Automatic export section`, configure the export. You can chose if you want to export the whole library, or just a specific folder. Make sure you export the file on change, that the output file is located in your Obsidian vault's literature folder and that you also export the notes you create in Zotero (see pink highlights in screenshot):![[Pasted image 20221223115939.png]]
+3. Make sure that Obsidian can find your literature note. Open the settings of the Citations plugin and make sure that `Citation database format` is set to `BibLaTeX`. As citation database path, you need to specifiy the path to your newly created `.bib` file.
+4. Try adding a literature note for one of the papers to make sure everything worked correctly (see [[Get Started - Vault#Citations - create literature notes for papers in your Zotero library]] for details).
+
+### Notes and annotations in Zotero
+
+To use this feature at its full potential, you need to know how you can make annotations in Zotero and export them as notes that are then attached to the literature item. This is really easy since Zotero has a pdf viewer integrated. Just do the following:
+
+1. Double click the paper you want to read in Zotero to open it in the Zotero Pdf viewer.
+2. Read the paper, highlight sections that are important, make little comments
+3. Go back to your Zotero database and right click on the paper you just read. Choose `Add Note from Annotations` and you will see that your paper will get an attachment note.
+This note will now also be exportet in your automatic library in Obsidian. So if you now create a literature note for this item in Obsidian, all your annotations will automatically be included in the `Notes` section of the literature note 🤩.
+
+
 ## Other useful or fun plugins
 
 ### Icon folder

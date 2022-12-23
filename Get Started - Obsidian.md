@@ -47,7 +47,6 @@ You can learn how to embed files and how to link to specific sections within the
 ## Tags
 Another way to link files is by using Tags like #tag written as `#tag` .
 
-
 ## Navigating Obsidian
 
 In the figure below, you find some important sections of the Obsidian window and what you can do there. But in general: Just experiment and click on the buttons to find out what they do.
@@ -57,7 +56,14 @@ In the figure below, you find some important sections of the Obsidian window and
 ## Settings
 
 Check out yourself which settings you can change for your Obsidian vault. Just click on the bottom left on the gear icon to see what you can do.
+Settings can be changed for general Obsidian things (Appearance, Hotkeys, ...) and you can control the settings of the core and the community plugins.
 
 ## The graph view
+
+The graph view shows you how the files in your vault are linked with each other. For this template vault, the graph looks like this:
+
+![[Pasted image 20221223105640.png]]
+
+You can open the graph view with the Hotkey `Ctrl + G` or by clicking on the graph icon in the toolbar on the left (5th from the top). You can also filter your graph by tags or group them. Just explore what you can do.
 
 ## Canvas

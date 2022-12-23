@@ -1,7 +1,7 @@
 
 
-- [ ] Academic notebook with folder structure
-- [ ] Citation package
+- [x] Academic notebook with folder structure ✅ 2022-12-23
+- [x] Citation package ✅ 2022-12-23
 - [ ] Set up daily notes and templates
 	- [ ] tasks example
 	- [ ] dataview example
@@ -16,12 +16,13 @@
 - [ ] Yaml header erklären in [[Advanced Obsidian#The YAML header]]
 - [ ] Tracking im YAML header?
 - [ ] Person Template?
-- [ ] Describe graph view in [[Get Started - Obsidian#The graph view]] 
+- [x] Describe graph view in [[Get Started - Obsidian#The graph view]] ✅ 2022-12-23
 - [ ] Describe canvas here [[Get Started - Obsidian#Canvas]]
+- [ ] Describe how to use DBConnect to mark literature that has an obsidian note [[Advanced Obsidian#Zotero citations]]
 
 ## Readmes
 
 ## Vault
 
-- [ ] weekly template
-- [ ] daily template
+- [x] weekly template ✅ 2022-12-23
+- [x] daily template ✅ 2022-12-23
