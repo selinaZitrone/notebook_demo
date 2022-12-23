@@ -42,7 +42,7 @@ To make text bold or italic, you can also use the keyboard shortcuts you are use
 ## Linking Files
 
 You can link notes within your Obsidian Vault by using `[[]]`. For example, I can link to an example note from the Project folder like this: [[example]]
-You can learn how to embed files and how to link to specific sections within the [[Advanced Obsidian]] File. 
+You can learn how to embed files and how to link to specific sections within the [[Next level - Obsidian]] File. 
 
 ## Tags
 Another way to link files is by using Tags like #tag written as `#tag` .

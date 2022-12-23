@@ -15,12 +15,12 @@ To set this up, you have to follow these steps:
 
 ### Notes and annotations in Zotero
 
-To use this feature at its full potential, you need to know how you can make annotations in Zotero and export them as notes that are then attached to the literature item. This is really easy since Zotero has a pdf viewer integrated. Just do the following:
+To use this feature at its full potential, you need to know how you can make annotations in Zotero and export them as notes that are then attached to the literature item. This is really easy since Zotero has a PDF viewer integrated. Just do the following:
 
-1. Double click the paper you want to read in Zotero to open it in the Zotero Pdf viewer.
+1. Double click the paper you want to read in Zotero to open it in the Zotero PDF viewer.
 2. Read the paper, highlight sections that are important, make little comments
 3. Go back to your Zotero database and right click on the paper you just read. Choose `Add Note from Annotations` and you will see that your paper will get an attachment note.
-This note will now also be exportet in your automatic library in Obsidian. So if you now create a literature note for this item in Obsidian, all your annotations will automatically be included in the `Notes` section of the literature note 🤩.
+This note will now also be exported in your automatic library in Obsidian. So if you now create a literature note for this item in Obsidian, all your annotations will automatically be included in the `Notes` section of the literature note 🤩.
 
 
 ## Other useful or fun plugins
@@ -32,7 +32,7 @@ Adds Icons to your folders.
 Helps to work with tables more easily in markdown.
 
 ### Activity history
-You can track your activity within the vault or specific folders in a github style.
+You can track your activity within the vault or specific folders in a Github style.
 
 ### Advanced slides
 Helps to create slides.
@@ -51,6 +51,9 @@ The plugin "adds command palette options to export your notes to a variety of fo
 
 ### Party 🎉
 Confettis as reward if you fulfill a tasks.
+
+### Tag Wrangler
+Rename, toggle, merge ... tags in a very easy way! 
 
 ### Text generator
 "**Text Generator** is an open-source AI Assistant Tool that brings the power of Generative Artificial Intelligence to the power of knowledge creation and organization in Obsidian.

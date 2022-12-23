@@ -35,7 +35,7 @@ We already set this up to work with the template vault and you can have a look a
 - You can link to a literature note using `[[]]` as you saw in [[Get Started - Obsidian#Linking Files]] but you can also cite a paper in the text using the citation key with `[]` to get [@aanderudFungalLoopTransfer2018]. You can also achieve this via the command palette and `Insert Markdown citation`.
 - The `3_Literature/Overview` file automatically tracks all the literature that you have in your Vault and lists them in a table. This is down using the Dataview plugin (see [[Get Started - Vault#Dataview]] for details).
 
-To see how you can set up your Zotero to work with Obsidian Literature notes, have a look at [[Advanced Obsidian#Zotero citations]].
+To see how you can set up your Zotero to work with Obsidian Literature notes, have a look at [[Next level - Obsidian#Zotero citations]].
 
 ### Dataview - Automatically query information in your vault
 

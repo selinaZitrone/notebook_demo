@@ -14,11 +14,11 @@
 	- [x] Github: how to install etc. ✅ 2022-12-19
 	- [x] OBsidian how to -> How does the vault work ✅ 2022-12-19
 		- [x] Evtl. noch spliiten in Markdown, Plugins, Advanced ✅ 2022-12-19
-- [ ] Yaml header erklären in [[Advanced Obsidian#The YAML header]]
+- [ ] Yaml header erklären in [[Next level - Obsidian#The YAML header]]
 - [ ] Tracking im YAML header?
 - [x] Describe graph view in [[Get Started - Obsidian#The graph view]] ✅ 2022-12-23
 - [x] Describe canvas here [[Get Started - Obsidian#Canvas]] ✅ 2022-12-23
-- [ ] Describe how to use DBConnect to mark literature that has an obsidian note [[Advanced Obsidian#Zotero citations]]
+- [ ] Describe how to use DBConnect to mark literature that has an obsidian note [[Next level - Obsidian#Zotero citations]]
 
 ## Readmes
 

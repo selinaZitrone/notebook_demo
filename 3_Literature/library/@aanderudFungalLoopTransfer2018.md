@@ -19,7 +19,7 @@ If you have an abstract in your bib file this abstract will automatically be add
 
 ## Notes
 
-If you have notes, annotations and highlights for the paper done in Zotero, these notes will be added here automatically. See [[Advanced Obsidian#Zotero citations]] to see how you can set this up correctly.
+If you have notes, annotations and highlights for the paper done in Zotero, these notes will be added here automatically. See [[Next level - Obsidian#Zotero citations]] to see how you can set this up correctly.
 
 
 
