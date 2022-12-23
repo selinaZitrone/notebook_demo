@@ -1,1 +1,9 @@
-{}
+{
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "de",
+    "en-GB"
+  ],
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Figures"
+}

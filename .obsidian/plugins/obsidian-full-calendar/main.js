@@ -26089,8 +26089,8 @@ var require_moment = __commonJS({
         return input instanceof Date || Object.prototype.toString.call(input) === "[object Date]";
       }
       function map(arr, fn) {
-        var res = [], i3;
-        for (i3 = 0; i3 < arr.length; ++i3) {
+        var res = [], i3, arrLen = arr.length;
+        for (i3 = 0; i3 < arrLen; ++i3) {
           res.push(fn(arr[i3], i3));
         }
         return res;
@@ -26179,7 +26179,7 @@ var require_moment = __commonJS({
       }
       var momentProperties = hooks.momentProperties = [], updateInProgress = false;
       function copyConfig(to2, from2) {
-        var i3, prop, val;
+        var i3, prop, val, momentPropertiesLen = momentProperties.length;
         if (!isUndefined2(from2._isAMomentObject)) {
           to2._isAMomentObject = from2._isAMomentObject;
         }
@@ -26210,8 +26210,8 @@ var require_moment = __commonJS({
         if (!isUndefined2(from2._locale)) {
           to2._locale = from2._locale;
         }
-        if (momentProperties.length > 0) {
-          for (i3 = 0; i3 < momentProperties.length; i3++) {
+        if (momentPropertiesLen > 0) {
+          for (i3 = 0; i3 < momentPropertiesLen; i3++) {
             prop = momentProperties[i3];
             val = from2[prop];
             if (!isUndefined2(val)) {
@@ -26248,8 +26248,8 @@ var require_moment = __commonJS({
             hooks.deprecationHandler(null, msg);
           }
           if (firstTime) {
-            var args = [], arg, i3, key;
-            for (i3 = 0; i3 < arguments.length; i3++) {
+            var args = [], arg, i3, key, argLen = arguments.length;
+            for (i3 = 0; i3 < argLen; i3++) {
               arg = "";
               if (typeof arguments[i3] === "object") {
                 arg += "\n[" + i3 + "] ";
@@ -26565,8 +26565,8 @@ var require_moment = __commonJS({
       function stringSet(units, value) {
         if (typeof units === "object") {
           units = normalizeObjectUnits(units);
-          var prioritized = getPrioritizedUnits(units), i3;
-          for (i3 = 0; i3 < prioritized.length; i3++) {
+          var prioritized = getPrioritizedUnits(units), i3, prioritizedLen = prioritized.length;
+          for (i3 = 0; i3 < prioritizedLen; i3++) {
             this[prioritized[i3].unit](units[prioritized[i3].unit]);
           }
         } else {
@@ -26600,7 +26600,7 @@ var require_moment = __commonJS({
       }
       var tokens = {};
       function addParseToken(token2, callback) {
-        var i3, func = callback;
+        var i3, func = callback, tokenLen;
         if (typeof token2 === "string") {
           token2 = [token2];
         }
@@ -26609,7 +26609,8 @@ var require_moment = __commonJS({
             array[callback] = toInt(input);
           };
         }
-        for (i3 = 0; i3 < token2.length; i3++) {
+        tokenLen = token2.length;
+        for (i3 = 0; i3 < tokenLen; i3++) {
           tokens[token2[i3]] = func;
         }
       }
@@ -27410,9 +27411,12 @@ var require_moment = __commonJS({
         }
         return globalLocale;
       }
+      function isLocaleNameSane(name) {
+        return name.match("^[^/\\\\]*$") != null;
+      }
       function loadLocale(name) {
         var oldLocale = null, aliasedRequire;
-        if (locales[name] === void 0 && typeof module2 !== "undefined" && module2 && module2.exports) {
+        if (locales[name] === void 0 && typeof module2 !== "undefined" && module2 && module2.exports && isLocaleNameSane(name)) {
           try {
             oldLocale = globalLocale._abbr;
             aliasedRequire = require;
@@ -27588,10 +27592,10 @@ var require_moment = __commonJS({
         PST: -8 * 60
       };
       function configFromISO(config2) {
-        var i3, l4, string = config2._i, match5 = extendedIsoRegex.exec(string) || basicIsoRegex.exec(string), allowTime, dateFormat, timeFormat, tzFormat;
+        var i3, l4, string = config2._i, match5 = extendedIsoRegex.exec(string) || basicIsoRegex.exec(string), allowTime, dateFormat, timeFormat, tzFormat, isoDatesLen = isoDates.length, isoTimesLen = isoTimes.length;
         if (match5) {
           getParsingFlags(config2).iso = true;
-          for (i3 = 0, l4 = isoDates.length; i3 < l4; i3++) {
+          for (i3 = 0, l4 = isoDatesLen; i3 < l4; i3++) {
             if (isoDates[i3][1].exec(match5[1])) {
               dateFormat = isoDates[i3][0];
               allowTime = isoDates[i3][2] !== false;
@@ -27603,7 +27607,7 @@ var require_moment = __commonJS({
             return;
           }
           if (match5[3]) {
-            for (i3 = 0, l4 = isoTimes.length; i3 < l4; i3++) {
+            for (i3 = 0, l4 = isoTimesLen; i3 < l4; i3++) {
               if (isoTimes[i3][1].exec(match5[3])) {
                 timeFormat = (match5[2] || " ") + isoTimes[i3][0];
                 break;
@@ -27655,7 +27659,7 @@ var require_moment = __commonJS({
         return year;
       }
       function preprocessRFC28222(s4) {
-        return s4.replace(/\([^)]*\)|[\n\t]/g, " ").replace(/(\s\s+)/g, " ").replace(/^\s\s*/, "").replace(/\s\s*$/, "");
+        return s4.replace(/\([^()]*\)|[\n\t]/g, " ").replace(/(\s\s+)/g, " ").replace(/^\s\s*/, "").replace(/\s\s*$/, "");
       }
       function checkWeekday(weekdayStr, parsedInput, config2) {
         if (weekdayStr) {
@@ -27838,9 +27842,10 @@ var require_moment = __commonJS({
         }
         config2._a = [];
         getParsingFlags(config2).empty = true;
-        var string = "" + config2._i, i3, parsedInput, tokens2, token2, skipped, stringLength = string.length, totalParsedInputLength = 0, era;
+        var string = "" + config2._i, i3, parsedInput, tokens2, token2, skipped, stringLength = string.length, totalParsedInputLength = 0, era, tokenLen;
         tokens2 = expandFormat(config2._f, config2._locale).match(formattingTokens) || [];
-        for (i3 = 0; i3 < tokens2.length; i3++) {
+        tokenLen = tokens2.length;
+        for (i3 = 0; i3 < tokenLen; i3++) {
           token2 = tokens2[i3];
           parsedInput = (string.match(getParseRegexForToken(token2, config2)) || [])[0];
           if (parsedInput) {
@@ -27900,13 +27905,13 @@ var require_moment = __commonJS({
         }
       }
       function configFromStringAndArray(config2) {
-        var tempConfig, bestMoment, scoreToBeat, i3, currentScore, validFormatFound, bestFormatIsValid = false;
-        if (config2._f.length === 0) {
+        var tempConfig, bestMoment, scoreToBeat, i3, currentScore, validFormatFound, bestFormatIsValid = false, configfLen = config2._f.length;
+        if (configfLen === 0) {
           getParsingFlags(config2).invalidFormat = true;
           config2._d = new Date(NaN);
           return;
         }
-        for (i3 = 0; i3 < config2._f.length; i3++) {
+        for (i3 = 0; i3 < configfLen; i3++) {
           currentScore = 0;
           validFormatFound = false;
           tempConfig = copyConfig({}, config2);
@@ -28080,13 +28085,13 @@ var require_moment = __commonJS({
         "millisecond"
       ];
       function isDurationValid(m3) {
-        var key, unitHasDecimal = false, i3;
+        var key, unitHasDecimal = false, i3, orderLen = ordering.length;
         for (key in m3) {
           if (hasOwnProp(m3, key) && !(indexOf.call(ordering, key) !== -1 && (m3[key] == null || !isNaN(m3[key])))) {
             return false;
           }
         }
-        for (i3 = 0; i3 < ordering.length; ++i3) {
+        for (i3 = 0; i3 < orderLen; ++i3) {
           if (m3[ordering[i3]]) {
             if (unitHasDecimal) {
               return false;
@@ -28436,8 +28441,8 @@ var require_moment = __commonJS({
           "milliseconds",
           "millisecond",
           "ms"
-        ], i3, property;
-        for (i3 = 0; i3 < properties.length; i3 += 1) {
+        ], i3, property, propertyLen = properties.length;
+        for (i3 = 0; i3 < propertyLen; i3 += 1) {
           property = properties[i3];
           propertyTest = propertyTest || hasOwnProp(input, property);
         }
@@ -29692,7 +29697,7 @@ var require_moment = __commonJS({
       addParseToken("x", function(input, array, config2) {
         config2._d = new Date(toInt(input));
       });
-      hooks.version = "2.29.1";
+      hooks.version = "2.29.4";
       setHookCallback(createLocal);
       hooks.fn = proto;
       hooks.min = min;
@@ -51520,6 +51525,7 @@ var main_default6 = main6;
 function renderCalendar(containerEl, eventSources, settings) {
   var _a;
   const isMobile = window.innerWidth < 500;
+  const isNarrow = (settings == null ? void 0 : settings.forceNarrow) || isMobile;
   const {
     eventClick,
     select,
@@ -51548,13 +51554,16 @@ function renderCalendar(containerEl, eventSources, settings) {
       main_default6
     ],
     googleCalendarApiKey: "AIzaSyDIiklFwJXaLWuT_4y6I9ZRVVsPuf4xGrk",
-    initialView: ((_a = settings == null ? void 0 : settings.initialView) == null ? void 0 : _a[isMobile ? "mobile" : "desktop"]) || (isMobile ? "timeGrid3Days" : "timeGridWeek"),
+    initialView: ((_a = settings == null ? void 0 : settings.initialView) == null ? void 0 : _a[isNarrow ? "mobile" : "desktop"]) || (isNarrow ? "timeGrid3Days" : "timeGridWeek"),
     nowIndicator: true,
     scrollTimeReset: false,
-    headerToolbar: !isMobile ? {
+    headerToolbar: !isNarrow ? {
       left: "prev,next today",
       center: "title",
       right: "dayGridMonth,timeGridWeek,timeGridDay,listWeek"
+    } : !isMobile ? {
+      right: "today,prev,next",
+      left: "timeGrid3Days,timeGridDay,listWeek"
     } : false,
     footerToolbar: isMobile ? {
       right: "today,prev,next",
@@ -51564,7 +51573,7 @@ function renderCalendar(containerEl, eventSources, settings) {
       timeGridDay: {
         type: "timeGrid",
         duration: { days: 1 },
-        buttonText: isMobile ? "1" : "day"
+        buttonText: isNarrow ? "1" : "day"
       },
       timeGrid3Days: {
         type: "timeGrid",
@@ -56194,8 +56203,11 @@ var _NoteEvent = class extends LocalEvent {
     }
     return event;
   }
-  openIn(leaf) {
+  openIn(leaf, workspace) {
     return __async(this, null, function* () {
+      if (leaf.getViewState().pinned) {
+        leaf = workspace.getLeaf("tab");
+      }
       yield leaf.openFile(this.file);
     });
   }
@@ -56484,8 +56496,11 @@ var _DailyNoteEvent = class extends LocalEvent {
     this.lineNumber = lineNumber;
     this.heading = heading;
   }
-  openIn(leaf) {
+  openIn(leaf, workspace) {
     return __async(this, null, function* () {
+      if (leaf.getViewState().pinned) {
+        leaf = workspace.getLeaf("tab");
+      }
       yield leaf.openFile(this.file);
       if (leaf.view instanceof import_obsidian4.MarkdownView) {
         leaf.view.editor.setCursor({
@@ -56716,8 +56731,10 @@ var EventModal = class extends import_obsidian5.Modal {
         open: this.event instanceof LocalEvent ? () => __async(this, null, function* () {
           if (this.event instanceof LocalEvent) {
             let leaf = this.app.workspace.getMostRecentLeaf();
-            yield this.event.openIn(leaf);
-            this.close();
+            if (leaf) {
+              yield this.event.openIn(leaf, this.app.workspace);
+              this.close();
+            }
           }
         }) : void 0,
         deleteEvent: this.event instanceof LocalEvent ? () => __async(this, null, function* () {
@@ -57749,18 +57766,23 @@ function renderOnboarding(app, plugin, el) {
 // src/ui/view.ts
 var import_obsidian_daily_notes_interface5 = __toModule(require_main());
 var FULL_CALENDAR_VIEW_TYPE = "full-calendar-view";
+var FULL_CALENDAR_SIDEBAR_VIEW_TYPE = "full-calendar-sidebar-view";
 var CalendarView = class extends import_obsidian11.ItemView {
-  constructor(leaf, plugin) {
+  constructor(leaf, plugin, inSidebar = false) {
     super(leaf);
     this.plugin = plugin;
     this.calendar = null;
     this.cacheCallback = this.onCacheUpdate.bind(this);
+    this.inSidebar = inSidebar;
+  }
+  getIcon() {
+    return "calendar-glyph";
   }
   getViewType() {
     return FULL_CALENDAR_VIEW_TYPE;
   }
   getDisplayText() {
-    return "Calendar";
+    return this.inSidebar ? "Full Calendar" : "Calendar";
   }
   onCacheUpdate(file) {
     return __async(this, null, function* () {
@@ -57827,12 +57849,17 @@ var CalendarView = class extends import_obsidian11.ItemView {
         new import_obsidian11.Notice(err.message);
       }
       this.calendar = renderCalendar(calendarEl, sources, {
+        forceNarrow: this.inSidebar,
         eventClick: (info) => __async(this, null, function* () {
           if (info.jsEvent.getModifierState("Control") || info.jsEvent.getModifierState("Meta")) {
-            let file = this.app.vault.getAbstractFileByPath(info.event.id);
-            if (file instanceof import_obsidian11.TFile) {
-              let leaf = this.app.workspace.getMostRecentLeaf();
-              yield leaf.openFile(file);
+            console.log("open", info.event.id);
+            const event = yield eventFromApi(this.app.metadataCache, this.app.vault, this.plugin.settings, info.event);
+            if (!event) {
+              return;
+            }
+            let leaf = this.app.workspace.getMostRecentLeaf();
+            if (leaf) {
+              event.openIn(leaf, this.app.workspace);
             }
           } else {
             new EventModal(this.app, this.plugin, this.calendar).editInModal(info.event);
@@ -57877,7 +57904,7 @@ var CalendarView = class extends import_obsidian11.ItemView {
         initialView: this.plugin.settings.initialView,
         timeFormat24h: this.plugin.settings.timeFormat24h,
         openContextMenuForEvent: (e3, mouseEvent) => __async(this, null, function* () {
-          const menu = new import_obsidian11.Menu(this.app);
+          const menu = new import_obsidian11.Menu();
           const event = yield eventFromApi(this.app.metadataCache, this.app.vault, this.plugin.settings, e3);
           if (event instanceof EditableEvent) {
             if (!event.isTask) {
@@ -57894,8 +57921,10 @@ var CalendarView = class extends import_obsidian11.ItemView {
             menu.addSeparator();
             menu.addItem((item) => item.setTitle("Go to note").onClick(() => {
               let leaf = this.app.workspace.getMostRecentLeaf();
-              event.openIn(leaf);
-              new import_obsidian11.Notice(`Opening "${e3.title}"`);
+              if (leaf) {
+                event.openIn(leaf, this.app.workspace);
+                new import_obsidian11.Notice(`Opening "${e3.title}"`);
+              }
             }));
             menu.addItem((item) => item.setTitle("Delete").onClick(() => __async(this, null, function* () {
               yield event.delete();
@@ -58007,21 +58036,26 @@ var FullCalendarPlugin = class extends import_obsidian12.Plugin {
   }
   activateView() {
     return __async(this, null, function* () {
-      this.app.workspace.detachLeavesOfType(FULL_CALENDAR_VIEW_TYPE);
-      yield this.app.workspace.getUnpinnedLeaf().setViewState({
-        type: FULL_CALENDAR_VIEW_TYPE,
-        active: true
-      });
-      this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(FULL_CALENDAR_VIEW_TYPE)[0]);
+      const leaves = this.app.workspace.getLeavesOfType(FULL_CALENDAR_VIEW_TYPE).filter((l4) => l4.view.inSidebar === false);
+      if (leaves.length === 0) {
+        const leaf = this.app.workspace.getLeaf("tab");
+        yield leaf.setViewState({
+          type: FULL_CALENDAR_VIEW_TYPE,
+          active: true
+        });
+      } else {
+        yield Promise.all(leaves.map((l4) => l4.view.onOpen()));
+      }
     });
   }
   onload() {
     return __async(this, null, function* () {
       yield this.loadSettings();
-      this.registerView(FULL_CALENDAR_VIEW_TYPE, (leaf) => new CalendarView(leaf, this));
-      this.addRibbonIcon("calendar-glyph", "Open Full Calendar", (_3) => {
-        this.activateView();
-      });
+      this.registerView(FULL_CALENDAR_VIEW_TYPE, (leaf) => new CalendarView(leaf, this, false));
+      this.registerView(FULL_CALENDAR_SIDEBAR_VIEW_TYPE, (leaf) => new CalendarView(leaf, this, true));
+      this.addRibbonIcon("calendar-glyph", "Open Full Calendar", (_3) => __async(this, null, function* () {
+        yield this.activateView();
+      }));
       this.addSettingTab(new FullCalendarSettingTab(this.app, this));
       this.addCommand({
         id: "full-calendar-new-event",
@@ -58035,6 +58069,18 @@ var FullCalendarPlugin = class extends import_obsidian12.Plugin {
         name: "Open Calendar",
         callback: () => {
           this.activateView();
+        }
+      });
+      this.addCommand({
+        id: "full-calendar-open-sidebar",
+        name: "Open in sidebar",
+        callback: () => {
+          if (this.app.workspace.getLeavesOfType(FULL_CALENDAR_SIDEBAR_VIEW_TYPE).length) {
+            return;
+          }
+          this.app.workspace.getRightLeaf(false).setViewState({
+            type: FULL_CALENDAR_SIDEBAR_VIEW_TYPE
+          });
         }
       });
       this.addCommand({
@@ -58056,6 +58102,7 @@ var FullCalendarPlugin = class extends import_obsidian12.Plugin {
   }
   onunload() {
     this.app.workspace.detachLeavesOfType(FULL_CALENDAR_VIEW_TYPE);
+    this.app.workspace.detachLeavesOfType(FULL_CALENDAR_SIDEBAR_VIEW_TYPE);
   }
   loadSettings() {
     return __async(this, null, function* () {
@@ -58142,4 +58189,4 @@ PERFORMANCE OF THIS SOFTWARE.
 //! license : MIT
 //! moment.js
 //! momentjs.com
-//! version : 2.29.1
+//! version : 2.29.4
