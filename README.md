@@ -1,5 +1,5 @@
-This repository contains a template Obsidian vault for academic notetaking.
-It contains some demo files and has some useful community plugins installed and configured.
+![[DALL·E 2022-12-23 13.59.18 - academic note taking, digital art.png]]
+This repository contains a template Obsidian vault for academic note-taking. It contains some demo files and has some useful community plugins installed and configured.
 
 To get started with the vault you need to do the following:
 
