@@ -17,7 +17,7 @@
 - [ ] Tracking im YAML header?
 - [ ] Person Template?
 - [x] Describe graph view in [[Get Started - Obsidian#The graph view]] ✅ 2022-12-23
-- [ ] Describe canvas here [[Get Started - Obsidian#Canvas]]
+- [x] Describe canvas here [[Get Started - Obsidian#Canvas]] ✅ 2022-12-23
 - [ ] Describe how to use DBConnect to mark literature that has an obsidian note [[Advanced Obsidian#Zotero citations]]
 
 ## Readmes

@@ -67,3 +67,8 @@ The graph view shows you how the files in your vault are linked with each other.
 You can open the graph view with the Hotkey `Ctrl + G` or by clicking on the graph icon in the toolbar on the left (5th from the top). You can also filter your graph by tags or group them. Just explore what you can do.
 
 ## Canvas
+Canvas is the newest core plugin within Obsidian. "Canvas allows you to organize notes visually — an infinite space to research, brainstorm, diagram and lay out your ideas."
+You can embed your notes alongside images, PDFs, videos, audio, and even fully interactive web pages. 
+You find an exemplaric file here [[example_canvas.canvas]]
+Watch this youtube video to get more information on how to use the current version of canvas:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G3DJKk4ivq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
