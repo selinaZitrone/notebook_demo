@@ -1,5 +1,5 @@
 ## Folder structure
-This vault comes with predefined folders for academic purpose. However, every personal workflow is different. Therefore, we see this as a suggestionto start with, not a mandatory structure. 
+This vault comes with predefined folders for academic purpose. However, every personal workflow is different. Therefore, we see this as a suggestion to start with, not a mandatory structure. 
 The predefined folders are:
 - **1_Journal**: Here is the place for regular Labbook-style files
 	- **Daily**: If you create a daily file (for example via the [[Get Started - Vault#Calendar - create daily and weekly notes with one click|Calendar]]) it will be stored here.
@@ -7,6 +7,7 @@ The predefined folders are:
 - **2_Projects**: This is the place for organising and storing files of your projects
 - **3_Literature**: Here you store and manage your literature notes. The `/libary` subdirectory is linked to your Zotero (see [[Get Started - Vault#Citations - create literature notes for papers in your Zotero library|Citations]]) and you can directly import your Zotero annotations. The `Overview` file automatically creates an overview of all the literature notes in your vault.
 - **4_Meetings**: Notes for meetings that are created in the Full calendar (see [[Get Started - Vault#Full calendar]]) go here automatically.
+- **Figures**: If you copy and paste figures within any file, the figure will automatically be stored here. 
 - **Templates**: In this folder you can find the templates which are used to create the daily and weekly files
 
 ## Community plugins and functionality
@@ -41,29 +42,44 @@ To see how you can set up your Zotero to work with Obsidian Literature notes, ha
 
 Treat your Vault as a database which you can query from. Provides a JavaScript API and  
 pipeline-based query language for filtering, sorting, and extracting data from Markdown pages. 
-It is used within the Daily and Weekly files, e.g. [[2022-W51#🌴 Daily log files of the week]] and the [[Overwiew]] file of Literature.
+It is used within the Daily and Weekly files, e.g. [[2022-W51#🌴 Daily log files of the week]] and the [[Overview]] file of Literature.
 Check out the Plugin Website for examples: https://blacksmithgu.github.io/obsidian-dataview/ 
 
 ### Emoji shortcodes - Easily add emojis
 
-Insert emojis in your text using the shortcodes. E.g. `:purple_heart:` for 💜 or `:see_no_evil:` for 🙈
+Insert emojis in your text using the short-codes. E.g. `:purple_heart:` for 💜 or `:see_no_evil:` for 🙈
 
 ### Full calendar
 
-### Minimal Theme Settings- Control the Appearance of your editor
+Full calendar is a useful plugin integrating a calendar feature within Obsidian 📆. You can see the calendar already on the right bottom sidebar (A). But you can also open a full screen version by clicking on the left sidebar (B).
+
+![[Pasted image 20221223165826.png]]
+
+Within the full screen version you can add new calendar entries by clicking and dragging within a day. With every entry a new file is created that you can use to write down your notes concerning the specific event. 
+
+You can find a pretty good documentation about all features and possibilities of the full calendar here: https://davish.github.io/obsidian-full-calendar/ 
+
+### Minimal Theme Settings
+Control the Appearance of your editor.
 
 ### Periodic notes
-With this plugin you can easily create and navigate between daily and weekly files (also monthly, quaterly or annual files are possible). 
+With this plugin you can easily create and navigate between daily and weekly files (also monthly, quarterly or annual files are possible). 
 In the settings you can link a plugin and set the specific folder, where the new file will be created. 
 
 ### Tasks
 The plugin helps to track tasks within your complete vault. Where ever you format any text like this 
 ``- [ ] task``
-It will be recogniced as task. 
+It will be recognised as task. 
 
 Moreover, you can also date the tasks. If you ad a "due to"-date (by clicking in the drop down menu or ... ), the task will appear in the daily log file of the selected day. Here is an example of an open task and a fulfilled task (just click to change the state): 
-- [ ] Describe what "tasks" are 📅 2022-12-22 
+- [ ] Describe what "tasks" are
 - [x] Describe what done tasks are 📅 2022-12-22 ✅ 2022-12-22
+
+Use the Hotkey `Cmd alt t` to edit tasks or search for "Task: Create or edit task" within the command palette. 
+
+Moreover, you can search for tasks within the vault. You can find an example within the daily or weekly files or within the predefined file [[ALL OPEN TASKS]]. 
+
+You can find the documentation of the Plugin here: https://obsidian-tasks-group.github.io/obsidian-tasks/ 
 
 ### Templater
 Templater is necessary for the used templates. 

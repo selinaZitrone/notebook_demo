@@ -58,6 +58,14 @@ In the figure below, you find some important sections of the Obsidian window and
 Check out yourself which settings you can change for your Obsidian vault. Just click on the bottom left on the gear icon to see what you can do.
 Settings can be changed for general Obsidian things (Appearance, Hotkeys, ...) and you can control the settings of the core and the community plugins.
 
+## Hotkeys 
+You can individualise all hotkeys within the Settings of Obsidian. 
+Some very essential (for my workflow) are: 
+- `Cmd o` : Open quick switcher to open and search for files.
+- `Cmd p` : Open command palette to access commands within Obsidian.
+- `Cmd shift f` : Search in all files of Obsidian. 
+- `Cmd alt t` : Edit Tasks. 
+
 ## The graph view
 
 The graph view shows you how the files in your vault are linked with each other. For this template vault, the graph looks like this:
@@ -72,3 +80,5 @@ You can embed your notes alongside images, PDFs, videos, audio, and even fully i
 You find an exemplaric file here [[example_canvas.canvas]]
 Watch this youtube video to get more information on how to use the current version of canvas:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G3DJKk4ivq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

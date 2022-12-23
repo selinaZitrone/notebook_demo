@@ -1,3 +1,4 @@
+# Next level - Obsidian
 ## Zotero citations
 
 The connection between your Zotero database and Obsidian is the `Library.bib` file that is located in the `3_Literature` folder. The idea is to automatically update the `Library.bib` file whenever your Zotero data base changes. This way, Obsidian always has the newest information. 
@@ -23,7 +24,7 @@ To use this feature at its full potential, you need to know how you can make ann
 This note will now also be exported in your automatic library in Obsidian. So if you now create a literature note for this item in Obsidian, all your annotations will automatically be included in the `Notes` section of the literature note 🤩.
 
 
-## Other useful or fun plugins
+## Community plugins
 
 ### Icon folder
 Adds Icons to your folders. 
@@ -50,21 +51,21 @@ Do version control from inside Obsidian for your vault.
 The plugin "adds command palette options to export your notes to a variety of formats including Word Documents, PDFs, ePub books, HTML websites, PowerPoints and LaTeX among (many) others."
 
 ### Party 🎉
-Confettis as reward if you fulfill a tasks.
+Confetti as reward if you fulfil a tasks.
 
 ### Tag Wrangler
 Rename, toggle, merge ... tags in a very easy way! 
 
 ### Text generator
-"**Text Generator** is an open-source AI Assistant Tool that brings the power of Generative Artificial Intelligence to the power of knowledge creation and organization in Obsidian.
+"**Text Generator** is an open-source AI Assistant Tool that brings the power of Generative Artificial Intelligence to the power of knowledge creation and organisation in Obsidian.
 For example, use Text Generator to generate ideas, attractive titles, summaries, outlines, and whole paragraphs based on your knowledge database."
-You need an account for OpenAI.
+You need an account for Open AI.
 
 ### Tracker
-Tracks numers within your note and helps to visualise them. 
+Tracks numbers within your note and helps to visualise them. 
 
 
-## Further markdown stuff
+## Markdown
 ### The YAML header
 
 ### Linking and embedding 
@@ -72,18 +73,23 @@ Tracks numers within your note and helps to visualise them.
 Remember, you can link notes within your Obsidian Vault by using `[[]]`. For example, I can link to an example note from the Project folder like this: [[example]]
 You can also link to specific headings or section within notes by using a "#" or a "^" like this: [[example#Heading 1.2]] or [[example#^73a7bc]]
 
-By setting an exclamation mark in front of the brackets `![[]]`, , you can embedd a file or a subsection of the file. Here is an example: 
+By setting an exclamation mark in front of the brackets `![[]]`, , you can embed a file or a subsection of the file. Here is an example: 
 ![[example#Heading 1.2]]
 
 - [ ] Explain the backlinks and outgoing links section
 
-You can even embedd youtube videos or websites within a note. See a tutorial here: https://patrickberry.medium.com/embed-youtube-video-in-obsidian-efc6f78e35e6
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jwBZDQXopvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can even embed YouTube videos or websites within a note. See a tutorial here: https://patrickberry.medium.com/embed-youtube-video-in-obsidian-efc6f78e35e6
 
 
-## Youtube Channel recomendations
-For more information and inspiration on what you can do with Obsidian check out the following youtube Channels providing insights from basic to advanced use of Obsidian:
+
+
+## YouTube Channel about Obsidian
+For more information and inspiration on what you can do with Obsidian check out the following YouTube Channels providing insights from basic to advanced use of Obsidian:
 - https://www.youtube.com/@nicolevdh
 - https://www.youtube.com/@DannyTalksTech 
 - https://www.youtube.com/@FromSergio
+
+
+# Academic note taking 
+## Ressources
+- https://ilyashabanov.substack.com/p/note-taking-system-for-success-in
