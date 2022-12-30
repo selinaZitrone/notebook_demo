@@ -60,11 +60,12 @@ Within the full screen version you can add new calendar entries by clicking and 
 You can find a pretty good documentation about all features and possibilities of the full calendar here: https://davish.github.io/obsidian-full-calendar/ 
 
 ### Minimal Theme Settings
-Control the Appearance of your editor.
+Control the Appearance of your editor. You can download community themes under `Settings -> Appearance -> Themes -> Manage`. If you use the `Minimal Theme`, you can control the look of it using the Minimal Theme Settings Plugin. 
 
 ### Periodic notes
-With this plugin you can easily create and navigate between daily and weekly files (also monthly, quarterly or annual files are possible). 
-In the settings you can link a plugin and set the specific folder, where the new file will be created. 
+With this plugin you can easily create and navigate between daily and weekly files (also monthly, quarterly or annual files are possible). In the settings of the `Periodic Notes` plugin you can set the templates for your notes and the specific folder, where the new file will be created.  
+
+You can create daily and weekly notes either from the taskbar or from the [[Get Started - Vault#Calendar - create daily and weekly notes with one click|Calendar plugin]] by clicking at the respective day or week.
 
 ### Tasks
 The plugin helps to track tasks within your complete vault. Where ever you format any text like this 
@@ -82,6 +83,8 @@ Moreover, you can search for tasks within the vault. You can find an example wit
 You can find the documentation of the Plugin here: https://obsidian-tasks-group.github.io/obsidian-tasks/ 
 
 ### Templater
-Templater is necessary for the used templates. 
+The Templater plugin is used to create the templates that are located in the `Templates` folder. In this vault, you can find templates for the daily and weekly files (see [[Get Started - Vault#Periodic notes]]). Of course you can change the templates as best fits your needs.
+
+You can find a full documentation of the Plugin here: https://silentvoid13.github.io/Templater/
 
 

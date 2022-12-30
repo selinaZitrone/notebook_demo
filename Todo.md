@@ -2,7 +2,7 @@
 
 - [x] In [[weekly_template]] - automatische Verlinkung zur nächsten Woche klappt nicht ✅ 2022-12-23
 - [ ] YAML header erklären in [[Next level - Obsidian#The YAML header]]
-- [ ] Explain purpose of the vault in [[README]]
+- [x] Explain purpose of the vault in [[README]] ✅ 2022-12-30
 - [x] Academic notebook with folder structure ✅ 2022-12-23
 - [x] Citation package ✅ 2022-12-23
 - [x] Add file with dataview query to see all open tasks ✅ 2022-12-23
