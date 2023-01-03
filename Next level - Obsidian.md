@@ -66,7 +66,12 @@ Tracks numbers within your note and helps to visualise them.
 
 
 ## Markdown
+
 ### The YAML header
+
+In the YAML header, also known as front matter, you can add file-level metadata. The YAML header starts and ends with triple dashed and needs to be placed at the very top of a file. You can find an example in the daily files like [[2022-12-21]].
+You can find other examples in the Obsidian help page: https://help.obsidian.md/Advanced+topics/YAML+front+matter 
+
 
 ### Linking and embedding 
 

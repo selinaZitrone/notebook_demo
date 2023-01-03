@@ -1,7 +1,7 @@
 ## Obligatory todos before first test phase
 
 - [x] In [[weekly_template]] - automatische Verlinkung zur nächsten Woche klappt nicht ✅ 2022-12-23
-- [ ] YAML header erklären in [[Next level - Obsidian#The YAML header]]
+- [x] YAML header erklären in [[Next level - Obsidian#The YAML header]] ✅ 2023-01-03
 - [x] Explain purpose of the vault in [[README]] ✅ 2022-12-30
 - [x] Academic notebook with folder structure ✅ 2022-12-23
 - [x] Citation package ✅ 2022-12-23
