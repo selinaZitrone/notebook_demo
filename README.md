@@ -17,10 +17,10 @@ The vault contains some detailed readme file that help you learn about the vault
 To get started with the vault you need to do the following:
 
 1. Download and install Obsidian for your machine from [here](https://obsidian.md/)
-2. Download this notebook_demo from the newest release on Github
-3. Unzip the notebook_demo and save it at a convenient location on your machine
-4. Rename the folder that contains the notebook_demo if you want
-5. Start Obsidian, click on `Open folder as vault` and select the (maybe renamed) notebook_demo. Obsidian will open the notebook_demo as vault for you
+2. Download this *notebook_demo* from the newest release on Github
+3. Unzip the *notebook_demo* and save it at a convenient location on your machine
+4. Rename the folder that contains the *notebook_demo* if you want
+5. Start Obsidian, click on `Open folder as vault` and select the (maybe renamed) *notebook_demo*. Obsidian will open the *notebook_demo* as vault for you
 6. While opening a warning will pop up asking for permission to enable plugins that the vault contains. They are necessary to have the full functionality of the vault.  Here, you can read more about the plugin security policy of Obsidian: [here](https://help.obsidian.md/Extending+Obsidian/Plugin+security)
 7. On the left, find several Notes that help you to get started with Obsidian and your vault. Read
 	1. `Get Started - Obsidian` to find out more about Obsidian in general and how to use it. Here we also describe which settings you need to change to get started.
