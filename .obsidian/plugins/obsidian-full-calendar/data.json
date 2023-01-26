@@ -3,11 +3,6 @@
     {
       "type": "local",
       "color": "hsl( 201, 38%, calc(54% - 5%) )",
-      "directory": "3_Meetings"
-    },
-    {
-      "type": "local",
-      "color": "hsl( 201, 38%, calc(54% - 5%) )",
       "directory": "4_Meetings"
     }
   ],
