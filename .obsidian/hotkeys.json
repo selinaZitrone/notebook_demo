@@ -1,12 +1,4 @@
 {
-  "editor:cycle-list-checklist": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Enter"
-    }
-  ],
   "obsidian-tasks-plugin:edit-task": [
     {
       "modifiers": [
