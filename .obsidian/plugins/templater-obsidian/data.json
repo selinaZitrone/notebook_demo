@@ -15,12 +15,16 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "1_Journal/Daily",
+      "folder": "01_Journal/Daily",
       "template": "Templates/daily_template.md"
     },
     {
-      "folder": "1_Journal/Weekly",
+      "folder": "01_Journal/Weekly",
       "template": "Templates/weekly_template.md"
+    },
+    {
+      "folder": "03_Meetings",
+      "template": "Templates/meeting template.md"
     }
   ],
   "syntax_highlighting": true,

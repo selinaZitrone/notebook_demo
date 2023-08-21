@@ -1,10 +1,10 @@
 [
   "calendar",
-  "templater-obsidian",
   "obsidian-tasks-plugin",
   "periodic-notes",
   "dataview",
   "obsidian-citation-plugin",
   "emoji-shortcodes",
-  "obsidian-full-calendar"
+  "quickadd",
+  "templater-obsidian"
 ]
