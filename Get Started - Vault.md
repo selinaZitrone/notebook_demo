@@ -49,19 +49,6 @@ Check out the Plugin Website for examples: https://blacksmithgu.github.io/obsidi
 
 Insert emojis in your text using the short-codes. E.g. `:purple_heart:` for 💜 or `:see_no_evil:` for 🙈
 
-### Full calendar
-
-Full calendar is a useful plugin integrating a calendar feature within Obsidian 📆. You can see the calendar already on the right bottom sidebar (A). But you can also open a full screen version by clicking on the left sidebar (B).
-
-![[Pasted image 20221223165826.png]]
-
-Within the full screen version you can add new calendar entries by clicking and dragging within a day. With every entry a new file is created that you can use to write down your notes concerning the specific event. 
-
-You can find a pretty good documentation about all features and possibilities of the full calendar here: https://davish.github.io/obsidian-full-calendar/ 
-
-### Minimal Theme Settings
-Control the Appearance of your editor. You can download community themes under `Settings -> Appearance -> Themes -> Manage`. If you use the `Minimal Theme`, you can control the look of it using the Minimal Theme Settings Plugin. 
-
 ### Periodic notes
 With this plugin you can easily create and navigate between daily and weekly files (also monthly, quarterly or annual files are possible). In the settings of the `Periodic Notes` plugin you can set the templates for your notes and the specific folder, where the new file will be created.  
 
