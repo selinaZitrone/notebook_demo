@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"ee553beed76addc8","x":-257,"y":-229,"width":400,"height":400,"type":"file","file":"2_Projects/example.md"},
+		{"id":"ee553beed76addc8","x":-257,"y":-229,"width":400,"height":400,"type":"file","file":"02_Projects/example.md"},
 		{"id":"18469519e3b6217c","x":242,"y":-232,"width":250,"height":102,"color":"3","type":"text","text":"Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."},
 		{"id":"4c551e4177f2398a","x":242,"y":-75,"width":250,"height":106,"color":"3","type":"text","text":"Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."},
 		{"id":"2ce57bac4e092ce1","x":222,"y":-252,"width":343,"height":303,"type":"group","label":"No files, just text"},
