@@ -1,6 +1,6 @@
 ---
 tag: weeklyReview
-week:  {{date:ww}} 
+week: {{date:ww}} 
 ---
 << [[<% tp.date.now("gggg-[W]ww", -1, tp.file.title, "gggg-[W]ww") %>|last week]] | [[<% tp.date.now("gggg-[W]ww", 8, tp.file.title, "gggg-[W]ww") %>|next week]] >> 
 # 🚀 Start of the week
@@ -20,28 +20,23 @@ short mode
 ```
 
 
-#### optional
-
 # 🌞 End of the week
 
 ## 📜 Weekly review and wrap up
 
-- [ ] Fill in YAML header (Labmeeting, etc.)
 - [ ] Check all daily files of last week and re-date undone tasks
 - [ ] Check if weekly tasks are done
 - [ ] Write weekly review
 - [ ] Add weekly goals and notes for next week
-- [ ] Check [[Open-Tasks]] and plan tasks for next week
-- [ ] Update [[HOME]] Page
-- [ ] Check that in [[README#Orphan files]] only future events exist
-- [ ] Check if any todo tags open
+- [ ] Check [[ALL OPEN TASKS]] and plan tasks for next week
+
+### What went well
+### What do I want to improve
 
 ### 🌴 Daily log files of the week
 ```dataview
-TABLE date, file.size
-FROM #dailyLog AND "1_Journal"
+TABLE date
+FROM #dailyLog
 WHERE date >= date("{{monday:YYYY-MM-DD}}") AND date <= date("{{friday:YYYY-MM-DD}}")
 ```
-### 🐘 What went well
-### 💪 What do I want to improve
-### 🐌 Mood
+
