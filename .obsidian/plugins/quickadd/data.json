@@ -8,7 +8,7 @@
       "templatePath": "Templates/meeting template.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "{{DATE}} {{NAME}}"
+        "format": "{{VDATE: date, YYYY-MM-DD}}{{NAME}}"
       },
       "folder": {
         "enabled": true,

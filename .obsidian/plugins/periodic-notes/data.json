@@ -5,13 +5,13 @@
   "daily": {
     "format": "",
     "template": "Templates/daily_template.md",
-    "folder": "1_Journal/Daily",
+    "folder": "01_Journal/Daily",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "template": "Templates/weekly_template.md",
-    "folder": "1_Journal/Weekly",
+    "folder": "01_Journal/Weekly",
     "enabled": true
   },
   "monthly": {
