@@ -6,11 +6,11 @@ endTime: null
 attendees: null
 location: null
 tags: meeting
-project: null
 summary: null
 ---
 
 # Agenda
 
 # Meeting notes
+
 
