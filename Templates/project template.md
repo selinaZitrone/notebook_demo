@@ -4,12 +4,9 @@ completed: null
 tags: project
 collaborators: null
 description: null
-state: null
-publication: null
-priority: null
+state: ""
 name: ""
 ---
-
 # Name 
 
 ## 🦸‍♀ Description
@@ -21,21 +18,22 @@ short mode
 path includes <% tp.file.folder(true) %> 
 ```
 
-
 ## 🏅 Activity 
 
 ## 🧑‍🤝‍🧑 Meetings
 ```dataview
-table 
-	dateformat(date, "yyyy-MM-dd") as date, topic, attendees, summary
-from [[#this.file.name]] AND #meeting
-sort date DESC
+TABLE 
+	dateformat(date, "yyyy-MM-dd") as date, attendees, summary
+FROM #meeting
+WHERE contains(tags, this.file.name)
+SORT date DESC
 ```
 ## ↪ Mentions 
 ```dataview
 table 
 	dateformat(date, "yyyy-MM-dd") as date, tags
-from [[#this.file.name]] AND -#meeting
-sort date DESC
+FROM -#meeting
+WHERE contains(tags, this.file.name)
+SORT date DESC
 ```
 
