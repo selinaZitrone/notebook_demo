@@ -5,6 +5,10 @@ tags:
   - note
   - project_name
 ---
+
+Before you start writing your note remember:
+- set link to project file below
+- set project name as a tag in the YAML header/properties
 # 🦋 <% tp.file.title %>
 project::
 

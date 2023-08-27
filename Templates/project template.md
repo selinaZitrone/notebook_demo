@@ -1,6 +1,6 @@
 ---
 name: <% tp.file.title %>
-start: 
+start: <% tp.file.creation_date("YYYY-MM-DD") %>
 completed: 
 tags:
   - project
