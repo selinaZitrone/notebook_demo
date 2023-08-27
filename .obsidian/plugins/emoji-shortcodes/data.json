@@ -4,6 +4,8 @@
   "historyPriority": true,
   "historyLimit": 100,
   "history": [
+    ":open_file_folder:",
+    ":open_book:",
     ":construction:",
     ":calendar:",
     ":tada:"
