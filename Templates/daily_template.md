@@ -10,7 +10,7 @@ tags: dailyLog
 ## 🧑‍🤝‍🧑 Meetings 
 ```dataview
 TABLE
-  title AS "topic",
+  topic AS "topic",
   startTime AS "start",
   endTime AS "end"
 FROM #meeting
@@ -36,6 +36,7 @@ group by folder
 ```
 
 ## 🏴‍☠ Log
+
 
 ## 🗺 Changed files
 

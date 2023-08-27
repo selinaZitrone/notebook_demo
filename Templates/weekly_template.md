@@ -6,11 +6,11 @@ week: {{date:ww}}
 # 🚀 Start of the week
 
 ## 🏔 Goals
+- Goal 1
+- Goal 2
+- Goal 3
 
 ## 🐾 Tasks
-
-- [ ] Do weekly review 📅 {{friday:gggg-MM-DD}}
-
 ```tasks
 (due before {{friday:gggg-MM-DD}}) OR (due {{friday:gggg-MM-DD}})
 not done
@@ -18,12 +18,11 @@ group by due
 path does not include 1_Laborbuch/2_Weekly
 short mode
 ```
-
+- [ ] Do weekly review 📅 {{friday:gggg-MM-DD}}
 
 # 🌞 End of the week
 
 ## 📜 Weekly review and wrap up
-
 - [ ] Check all daily files of last week and re-date undone tasks
 - [ ] Check if weekly tasks are done
 - [ ] Write weekly review
@@ -31,7 +30,13 @@ short mode
 - [ ] Check [[ALL OPEN TASKS]] and plan tasks for next week
 
 ### What went well
+- x
+- x
+- x
 ### What do I want to improve
+- x
+- x
+- x
 
 ### 🌴 Daily log files of the week
 ```dataview
