@@ -1,4 +1,4 @@
-![image](Figures/title.png)
+![image](title.png)
 This repository contains a template Obsidian vault for academic note-taking. It contains some demo files and has some useful community plugins installed and configured.
 
 #### Purpose of the vault

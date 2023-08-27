@@ -1,6 +1,6 @@
 ## Zotero citations
 
-The connection between your Zotero database and Obsidian is the `Library.bib` file that is located in the `3_Literature` folder. The idea is to automatically update the `Library.bib` file whenever your Zotero data base changes. This way, Obsidian always has the newest information. 
+The connection between your Zotero database and Obsidian is the `Library.bib` file that is located in the `04_Literature` folder. The idea is to automatically update the `Library.bib` file whenever your Zotero data base changes. This way, Obsidian always has the newest information. 
 
 ### Set up Zotero and Obsidian
 
