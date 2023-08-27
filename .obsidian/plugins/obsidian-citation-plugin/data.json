@@ -1,9 +1,0 @@
-{
-  "citationExportFormat": "biblatex",
-  "literatureNoteTitleTemplate": "@{{citekey}}",
-  "literatureNoteFolder": "3_Literature/library",
-  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\njournal: {{containerTitle}}\nurl: {{URL}}\ntags: #paper, {{#each entry.data.fields.keywords}}{{#if @last}}#{{this}}{{else}}#{{this}}, {{/if}}{{/each}}\n---\n\n# {{title}}\n\n#### {{authorString}}\n\n[read in Zotero]({{zoteroSelectURI}})\n\n## Abstract\n\n{{abstract}}\n\n## Notes\n\n{{note}}\n\n",
-  "markdownCitationTemplate": "[@{{citekey}}]",
-  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
-  "citationExportPath": "3_Literature/Library.bib"
-}
