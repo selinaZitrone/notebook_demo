@@ -11,14 +11,15 @@ tags:
   - meeting
 topic: Planing meeting
 ---
-
-# 💼 Agenda
+# 👩‍👩‍👧‍👦  Example Meeting
+## 💼 Agenda
 - Talk about next project steps
 - Define next goals
 - [ ] Invite Hans-Jochen for the meeting 📅 2023-08-22
 - [x] Prepare example event 📅 2023-08-22 ✅ 2023-08-27
 - [x] Make coffee for the example event 📅 2023-08-23 ✅ 2023-08-23
-# 🌞 Summary
+
+## 🌞 Summary
 ```dataviewjs
 function callout(text, type) {
     const allText = `> [!${type}]\n` + text;
@@ -38,7 +39,8 @@ dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
 > [!Summary]
 > - Lorem ipsum dolor sit amet.
 > - consetetur sadipscing elitr
-# 📒 Meeting notes
+
+## 📒 Meeting notes
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 - At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 - [ ] Talk to Ferdinand about next steps 📅 2023-08-24
@@ -47,3 +49,4 @@ dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 
 
+- [ ] think about the meetings outcome

@@ -4,7 +4,6 @@
 not done
 no due date
 short mode
-group by due
 group by folder
 path does not include Templates/
 path does not include 01_Journal

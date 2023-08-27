@@ -10,10 +10,12 @@ tags:
 topic:
 ---
 
-# 💼 Agenda
+# 👩‍👩‍👧‍👦 Meeting name
+## 💼 Agenda
 
 
-# 🌞 Summary
+
+## 🌞 Summary
 ```dataviewjs
 function callout(text, type) {
     const allText = `> [!${type}]\n` + text;
@@ -32,6 +34,7 @@ dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
 ```
 > [!Summary]
 > - [ ] write Summary
-# 📒 Meeting notes
+
+## 📒 Meeting notes
 
 
