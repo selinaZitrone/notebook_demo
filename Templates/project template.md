@@ -1,39 +1,52 @@
 ---
-start: null
-completed: null
-tags: project
-collaborators: null
-description: null
+name: <% tp.file.title %>
+start: 
+completed: 
+tags:
+  - project
+collaborators: []
+description: 
 state: ""
-name: ""
 ---
-# Name 
+# <% tp.file.title %>
 
 ## 🦸‍♀ Description
 
-## 👷‍♀ All tasks within project 
-```tasks
-not done
-short mode
-path includes <% tp.file.folder(true) %> 
-```
 
-## 🏅 Activity 
+## 🗃 Resources 
+
+
+## 👷‍♀ All tasks within project 
+```dataviewjs
+const tag = "#<% tp.file.title %>"
+const query = `
+	  not done
+	  ${"(path includes " + dv.pagePaths(tag).join(') OR (path includes ') + ")"}
+	  short mode`;
+	  dv.paragraph('```tasks\n' + query + '\n```');
+```
 
 ## 🧑‍🤝‍🧑 Meetings
 ```dataview
 TABLE 
-	dateformat(date, "yyyy-MM-dd") as date, attendees, summary
+	dateformat(date, "yyyy-MM-dd") as date, attendees, topic
 FROM #meeting
 WHERE contains(tags, this.file.name)
 SORT date DESC
 ```
-## ↪ Mentions 
+
+
+
+## 📒 Notes & Mentions 
 ```dataview
 table 
 	dateformat(date, "yyyy-MM-dd") as date, tags
-FROM -#meeting
-WHERE contains(tags, this.file.name)
+FROM [[#this.file.name]] AND -#meeting
 SORT date DESC
 ```
+
+
+## 🏅 Activity & Success
+> [!Success]
+> - x
 

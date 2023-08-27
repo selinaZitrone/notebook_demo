@@ -1,6 +1,6 @@
 ---
 title: 2023-08-23 example meeting
-date: 
+date: 2023-08-23
 startTime: 08:00
 endTime: 09:00
 attendees:
@@ -9,6 +9,7 @@ attendees:
 location: New York
 tags:
   - meeting
+  - project_A
 topic: Planing meeting
 ---
 # 👩‍👩‍👧‍👦  Example Meeting

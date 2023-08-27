@@ -1,22 +1,14 @@
 ---
-title: <% tp.file.title %>
-date: 
-startTime: 
-endTime: 
-attendees: []
-location: 
+topic: 
+date: <% tp.file.creation_date("YYYY-MM-DD") %>
 tags:
-  - meeting
+  - note
   - project_name
-topic:
 ---
+# 🦋 <% tp.file.title %>
+project::
 
-# 👩‍👩‍👧‍👦 Meeting name
-## 💼 Agenda
-
-
-
-## 🌞 Summary
+## 🧭 Summary 
 ```dataviewjs
 function callout(text, type) {
     const allText = `> [!${type}]\n` + text;
@@ -27,8 +19,6 @@ function callout(text, type) {
 const query = `
 short mode
 path includes ${dv.current().file.path}
-# you can add any number of extra Tasks instructions, for example:
-# group by heading
 `;
 
 dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
@@ -36,6 +26,5 @@ dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
 > [!Summary]
 > - [ ] write Summary
 
-## 📒 Meeting notes
 
-
+## 📒 Notes
