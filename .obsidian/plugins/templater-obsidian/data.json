@@ -25,6 +25,10 @@
     {
       "folder": "03_Meetings",
       "template": "Templates/meeting template.md"
+    },
+    {
+      "folder": "05_Zettelkasten",
+      "template": "Templates/zettel template.md"
     }
   ],
   "syntax_highlighting": true,
