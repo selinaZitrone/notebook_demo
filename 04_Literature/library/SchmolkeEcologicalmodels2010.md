@@ -43,6 +43,11 @@ The format of TRACE documentations follows the sequence of tasks in the modeling
 ![[04_Literature/library/images/SchmolkeEcologicalmodels2010/image-6-x38-y489.png]]
 
 >[!annot] Comment
->Modelling notebooks can be used as a basis for the TRACE documentation.%% end annotations %%
+>Modelling notebooks can be used as a basis for the TRACE documentation.
+#### Imported on 2023-08-28 11:18 am
 
-%% Import Date: 2023-08-27T19:41:58.083+02:00 %%
+
+>[!quote] Image
+![[04_Literature/library/images/SchmolkeEcologicalmodels2010/image-3-x46-y36.png]]%% end annotations %%
+
+%% Import Date: 2023-08-28T11:18:50.360+02:00 %%
