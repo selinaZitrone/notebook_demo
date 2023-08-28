@@ -1,9 +1,14 @@
 ---
-id: {{date:YYYYMMDDHHmmss}}  
-created: {{date:YYYY-MM-DD}}  
+id: 020230828110837  
+created: 2023-08-28 
 tags: zettel
 ---
-Related topics: [[TRACE protocol]]
+
+> [!info]
+> This page was last modified on `$= dv.current().file.mtime.toFormat("MMMM d, yyyy")` at `$= dv.current().file.mtime.toFormat("h:mm a")`.
+
+> [!example] Related topics
+> [[TRACE protocol]]
 
 The elements of good modelling practice span the whole [[Modelling cycle]] and include:
 

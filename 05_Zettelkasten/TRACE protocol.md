@@ -1,9 +1,15 @@
 ---
-id: {{date:YYYYMMDDHHmmss}}  
-created: {{date:YYYY-MM-DD}}  
+id: 020230828110893  
+created: 2023-08-28 
 tags: zettel
 ---
-Related topics: [[ODD protocol]], [[Good modelling practice]], [[Modelling cycle]]
+> [!info]
+> This page was last modified on `$= dv.current().file.mtime.toFormat("MMMM d, yyyy")` at `$= dv.current().file.mtime.toFormat("h:mm a")`.
+
+> [!example] Related topics
+> [[ODD protocol]]
+> [[Good modelling practice]]
+> [[Modelling cycle]]
 
 The TRACE protocol (transparent and comprehensive ecological modeling) is a suggestion for a standard format for **documenting** the entire ecological modelling process.
 
