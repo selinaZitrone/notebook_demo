@@ -39,11 +39,6 @@ The following community plugins are installed:
 - **[Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration)**: With this plugin you can connect your Zotero library with Obsidian and create literature notes, citations and bibliographies. Used in
 	- [[#📚Literature notes from Zotero]]
 
-
-### Calendar - create daily and weekly notes with one click
-Adds the little calendar with the days and the weeks to your notebook. You can find the calendar in the bottom left corner or in the right side bar of the Obsidian editor. Clicking on a date or week automatically creates a daily/weekly note for that day/week using the respective template from the template. The calendar also shows you which day has open tasks (little dot below the day week).
-
-Works well together with: [[Get Started - Vault#Periodic notes|Periodic notes]], [[Get Started - Vault#Templater|Templater]]
 ### Dataview - Automatically query information in your vault
 Provides a JavaScript API and pipeline-based query language for filtering, sorting, and extracting data from Markdown pages. 
 It is used within the Daily and Weekly files, e.g. [[2023-W34#🌴 Daily log files of the week]] and the [[Overview]] file of literature notes.
@@ -86,6 +81,9 @@ Find the full documentation of the plugin [here](https://github.com/mgmeyers/obs
 
 Below, you find a description of the most important workflows that we implemented in this vault. Of course you can adapt them as you best fits your needs.
 ## 📝Create note from template
+
+*Plugins used*: Templater
+
 This workflow is needed for some of the workflows described below. There are different ways to create a template note. The main way that we will use in our workflows is the following:
 1. Create a new note in your desired folder (right-click on the folder and say "New Note").
 2. Give the note a title (by default it will be named "Untitled")
@@ -96,6 +94,24 @@ This workflow is needed for some of the workflows described below. There are dif
 	![[Pasted image 20230828162255.png]]
 
 ## 📆Periodic notes and lab journal
+
+*Plugins used*: Calendar, Templater, Periodic Notes 
+
+The idea of periodic notes is that you use them to track your goals, tasks and work on a daily/weekly basis. In this workflow, we use two templates:
+- [[daily_template]]: Create this file every day to get an overview of your tasks and meetings on that day, but also to take notes
+- [[weekly_template]]: Create this file every week to plan ahead what you want to focus on and get done in that week. Can also be used to review the week after it's over.
+#### Create a periodic note
+To create a periodic note for a day/week, first locate the calendar in your notebook (probably either the bottom left corner or in the right side bar). By clicking on a date or week a daily/weekly note is created automatically from the correct template and some information is already filled out. You can find the newly created notes in the folder `01_Journal/Daily|Weekly` . The calendar also shows you which day/week has open tasks (little dot below the day/week).
+#### Structure of a daily note (e.g. [[2023-08-23]])
+- **Header**: On top, the header automatically contains the date and weekday.
+- **🧑‍🤝‍🧑Meetings**: The dataview query in this section automatically looks for meetings that happen on that day. If you want to see the structure of the query, just click on the `</>` symbol in the top right corner of the meeting table. You can use the link in the table to go directly to the meeting file.
+- **🐾Tasks**: A section with a task query to automatically find tasks from the past that were forgotten (task due date is over) and tasks that happen today. Here you can also add other tasks for that day manually. When a task is done, just check the checkbox.
+- **🏴‍☠Log**: A log section that you can use to log your activities that day, take notes, link other files etc.
+- **🗺Changed files**: A list of Obsidian files that you changed that day. This list is automatically compiled with the dataview plugin. Can be useful to easily see the files you worked on that day.
+#### Structure of a weekly note (e.g. [[2023-W34]])
+- **⛰Goals**: Write down your goals for the week
+- **🐾Tasks**: A section that automatically pulls all the tasks for this week into the file. You can manually add other tasks below
+- **📜Weekly review**: Space for reviewing the week and planning ahead the next week
 
 ## 📊 Project management
 
