@@ -39,38 +39,6 @@ The following community plugins are installed:
 - **[Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration)**: With this plugin you can connect your Zotero library with Obsidian and create literature notes, citations and bibliographies. Used in
 	- [[#📚Literature notes from Zotero]]
 
-### Periodic notes
-With this plugin you can easily create and navigate between daily and weekly files (also monthly, quarterly or annual files are possible). In the settings of the `Periodic Notes` plugin you can set the templates for your notes and the specific folder, where the new file will be created.
-
-You can create daily and weekly notes either from the taskbar (`Ctrl/Cmd + P`) or from the [[Get Started - Vault#Calendar - create daily and weekly notes with one click|Calendar plugin]] by clicking at the respective day or week.
-### Tasks
-The plugin helps to track tasks within your complete vault. Where ever you format text like this 
-``- [ ] task``
-It will be recognised as task. Moreover, you can also add due dates for your tasks (by clicking the drop down menu that automatically appears).
-When a task is done, you can check the checkbox. Here is an example of an open and a closed task:
-- [ ] Describe what "tasks" are 📅 2023-08-28 
-- [x] Describe what done tasks are 📅 2022-12-22 ✅ 2022-12-22
-Use the Hotkey `Cmd alt t` to edit tasks.
-
-You can use a tasks query to automatically load tasks from other files into the current file depending on filters that you can define.
-We used this e.g. in the daily and weekly log files to pull tasks with a due date on that day or in that week into the file automatically. E.g. have a look in [[2023-08-23#From the past]] . To see the query you need to click on the `</>` symbol that appears when you hover over the task.
-You can find another example of a task query in the file [[ALL OPEN TASKS]]. 
-
-You can find the documentation of the Plugin [here](https://obsidian-tasks-group.github.io/obsidian-tasks/)
-### Templater
-The Templater plugin is used to create the templates that are located in the `Templates` folder. In this vault, you can find templates for
-
-- Daily and weekly notes ([[daily_template]] and [[weekly_template]])
-- Project related notes ([[project template]] for a main project file, [[note_template]] for a note within a project and [[meeting template]] for a project meeting)
-- A [[literature template]] for literature notes
-- A [[zettel template]] for a note in your Zettelkasten
-
-Of course you can change the templates as best fits your needs.
-You can find a full documentation of the plugin [here](https://silentvoid13.github.io/Templater/).
-### Zotero integration
-With this plugin you can connect your Zotero library with Obsidian and create literature notes using templates. It is used in the workflow for [[#📖Literature notes from Zotero]].
-Find the full documentation of the plugin [here](https://github.com/mgmeyers/obsidian-zotero-integration).
-
 # 🧰Workflows
 #🚧 This is a very long section... Maybe it makes sense to put every workflow in separate files and only link them here?? Then we might want to create a `Get started` folder inside the vault. But I find this file a bit too long to be convenient to read.... 🚧
 
@@ -105,6 +73,13 @@ To create a periodic note for a day/week, first locate the calendar in your note
 - **⛰Goals**: Write down your goals for the week
 - **🐾Tasks**: A section that automatically pulls all the tasks for this week into the file. You can manually add other tasks below
 - **📜Weekly review**: Space for reviewing the week and planning ahead the next week
+### A word on tasks
+When a task is done, you can check the checkbox. Here is an example of an open and a closed task:
+- [ ] Describe what "tasks" are 📅 2023-08-28 
+- [x] Describe what done tasks are 📅 2022-12-22 ✅ 2022-12-22
+You can also use the Hotkey `Ctrl + Cmd/Alt + T` to edit tasks.
+
+In the file [[ALL OPEN TASKS]] you can find a list of all the open tasks without due date in your vault. You can periodically check this file to see which tasks you might have forgotten.
 ## 📊 Project management
 *Plugins used*: Templater, Dataview, Tasks
 
