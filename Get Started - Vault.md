@@ -39,12 +39,6 @@ The following community plugins are installed:
 - **[Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration)**: With this plugin you can connect your Zotero library with Obsidian and create literature notes, citations and bibliographies. Used in
 	- [[#📚Literature notes from Zotero]]
 
-### Dataview - Automatically query information in your vault
-Provides a JavaScript API and pipeline-based query language for filtering, sorting, and extracting data from Markdown pages. 
-It is used within the Daily and Weekly files, e.g. [[2023-W34#🌴 Daily log files of the week]] and the [[Overview]] file of literature notes.
-
-Check out the [Dataview website](https://blacksmithgu.github.io/obsidian-dataview/) for examples.
-
 ### Periodic notes
 With this plugin you can easily create and navigate between daily and weekly files (also monthly, quarterly or annual files are possible). In the settings of the `Periodic Notes` plugin you can set the templates for your notes and the specific folder, where the new file will be created.
 
@@ -173,9 +167,27 @@ Just start typing and when you found the right paper, select it and hit enter:
 ![[Pasted image 20230827201737.png]]
 
 Now Obsidian will automatically create a literature note for you in the folder `04_Literature/library` and open this file for you. The file contains metadata about the paper and a section on annotations that were extracted from the PDF. There is also a section called "My Notes" where you can add additional notes by hand.
+
+The [[Overview]] file uses dataview to summarize your literature notes in a table, so you always know which papers you have already read and taken notes on.
 ### More information
 - [Blogpost with a detailed example workflow](https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd)
 - [Step by step guide](https://dannyhatcher.com/zotero-obsidian-integration/)for the correct setup of Zotero and the plugin with a lot of screenshots and an optional Youtube Video.
 
-## 🧠Knowledge management with Zettelkasten
+## 🧠Knowledge management with *Zettelkasten*
 *Plugins used:* Templater
+
+The *[Zettelkasten method](https://en.wikipedia.org/wiki/Zettelkasten)* is a tool for personal knowledge management that is based on the idea of small items of information or concepts stored in separate notes that are linked among one another. Obsidian is a perfect tool for implementing such a method to create a sustainable knowledgebase. Here, we describe how to use the basic Zettelkasten system as it is implemented in this vault. Below you can find links that describe the method and different ways of implementing it in Obsidian in more detail.
+
+All single *Zettels* go into the `05_Zettelkasten/` folder. You can already find an example Zettelkasten in this folder. It's probably easiest to understand the method, if you look through the example. You can check out the graph view of this Zettelkasten to see how the notes are connected.
+### Add a new Zettel
+Just right click on the Zettelkasten folder and say **New note**. The new Zettel is automatically created using the [[zettel template]] and it is opened for you. On top you can give the note a meaningful title.
+### Link Zettels
+Zettels can and should be linked via 2 concepts: file links and tags.
+In every Zettel, you have a callout box on top for "Related topic". Here you can link other Zettels that are related to the current topic. Additionally, you can add tags (either in the front matter or by using the #tag notation) for common topics.
+### Add references
+Every Zettel has a reference section on the bottom. Here you can put a list of all the references you used to write this Zettel. You can e.g. link a literature note or an external resource.
+
+### More information
+- [Youtube video explaining the Zettelkasten method](https://www.youtube.com/watch?v=yqKspwjXu18)
+- [Video on Zettelkasten with Obsidian](https://www.youtube.com/watch?v=ziE6UExsOrs)
+- [Another video on Zettelkasten with Obsidian](https://www.youtube.com/watch?v=E6ySG7xYgjY)
