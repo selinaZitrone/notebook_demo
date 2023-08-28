@@ -57,6 +57,7 @@ This is the most basic Markdown syntax:
 2. numbered list
 
 - [ ] A task
+- [x] A fulfilled task
 ```
 
 To make text bold or italic, you can also use the keyboard shortcuts you are used to from other programs (Ctrl + B/I on Windows). Have a look at the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to find more option to format text in Markdown.
