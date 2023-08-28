@@ -78,10 +78,10 @@ With this plugin you can connect your Zotero library with Obsidian and create li
 Find the full documentation of the plugin [here](https://github.com/mgmeyers/obsidian-zotero-integration).
 
 # 🧰Workflows
+#🚧 This is a very long section... Maybe it makes sense to put every workflow in separate files and only link them here?? Then we might want to create a `Get started` folder inside the vault. But I find this file a bit too long to be convenient to read.... 🚧
 
 Below, you find a description of the most important workflows that we implemented in this vault. Of course you can adapt them as you best fits your needs.
 ## 📝Create note from template
-
 *Plugins used*: Templater
 
 This workflow is needed for some of the workflows described below. There are different ways to create a template note. The main way that we will use in our workflows is the following:
@@ -94,8 +94,7 @@ This workflow is needed for some of the workflows described below. There are dif
 	![[Pasted image 20230828162255.png]]
 
 ## 📆Periodic notes and lab journal
-
-*Plugins used*: Calendar, Templater, Periodic Notes 
+*Plugins used*: Calendar, Templater, Periodic Notes, Tasks
 
 The idea of periodic notes is that you use them to track your goals, tasks and work on a daily/weekly basis. In this workflow, we use two templates:
 - [[daily_template]]: Create this file every day to get an overview of your tasks and meetings on that day, but also to take notes
@@ -112,43 +111,71 @@ To create a periodic note for a day/week, first locate the calendar in your note
 - **⛰Goals**: Write down your goals for the week
 - **🐾Tasks**: A section that automatically pulls all the tasks for this week into the file. You can manually add other tasks below
 - **📜Weekly review**: Space for reviewing the week and planning ahead the next week
-
 ## 📊 Project management
+*Plugins used*: Templater, Dataview, Tasks
+
+The idea of this workflow is that for every project, you have one main project file in the folder `02_Projects`. This file is your entry point into the project that holds the most important info of your project and links to other notes and meetings relevant for the project.
+### Start a new project
+To start a new project, create a project file in the `02_Projects` folders and apply the [[project template]] to it (see [[#📝Create note from template]] for instructions). 
+
+>[!warning] Caution 
+>In our workflow, we create a corresponding project tag for every project. The tag is called like the project file. Therefore do not use any white space in your project file name. You can e.g. concatenate the file name using underscores
+
+The project file that is created from the template can now be filled with life (see [[project_A|this example file]]). In the project file, you can write down tasks (if you give the tasks due dates, then they will automatically appear in your daily file when it's time), link other files and start planning your project. The project file contains some automatic queries for
+- **👷‍♀All tasks within project**: Looks for all tasks that are in files that contain the project specific tag.
+- **🧑‍🤝‍🧑Meetings**: Automatically pulls all meetings that link to the project via the project tag
+- **↪ Notes & Mentions**: Automatically lists all non-meeting files that link to the project via the project tag.
+### Add files to the project
+Project-related notes go in the `02_Projects/notes` folder if they are notes, or `02_Projects/canvas` folder if they are canvas files (look [[Get Started - Obsidian#Canvas|here]] for more info on canvas). 
+Create a project new note in the `notes/` directory and apply the [[note_template]] to it (see [[#📝Create note from template]] for instructions). When the note is created, make sure to first follow the instructions on top of the new note:
+- set a link to project file below
+- set a project name as a tag in the YAML header/properties
+Only then, you note will be correctly linked to your template.
+
+Now you can start writing down your notes on the bottom of the file. On top, you have tow call-out boxes for convenience: The first one automatically summarizes all tasks that you might have in your file and in the second one you can summarize the note content in a few sentences.
+
+### Add a meeting to the project
+Meeting notes go in the `03_Meetings/` folder and they follow the naming convention `YYYY-MM-DD meeting name`. To create a meeting, create a new note in the meeting folder, name the note correctly and apply the [[meeting template]]  (see [[#📝Create note from template]] for instructions).
+When the note is created, make sure to first follow the instructions on top of the new meeting note:
+- set a link to project file below
+- set a project name as a tag in the YAML header/properties
+
+In this meeting note you can now plan the meeting but also take notes during the meeting. Also here you have a callout that summarizes all tasks from the meeting note another callout that you can use to summarize the meeting.
+The meeting will automatically appear in your project file and in the daily file when it's the date of the meeting.
 
 ## 📚Literature notes from Zotero
+*Plugins used:* Templater, Zotero integration
 
-In the vault, we use the [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration) community plugin to create literature notes from our Zotero database. What this plugin allows you to do (among other things) is to create a literature note from every item that is in your Zotero library using a custom Obsidian template.
-
-In this vault, you can find an [[SchmolkeEcologicalmodels2010|example of a literature note]] that was created using the [[literature template|vault template for literature notes]].
+In this vault, you can find an [[SchmolkeEcologicalmodels2010|example of a literature note]] that was created using the [[literature template|vault template for literature notes]]. Before you can follow the workflow, you need to setup the connection with Zotero.
 ### First time Setup
-Before you can get started with your own literature notes, there are a couple of things you need to set up in order for the workflow to work as planned. You can find a more detailed walkthrough of every step with screenshots [here](https://dannyhatcher.com/zotero-obsidian-integration/).
+You can find a more detailed walkthrough of every step with screenshots [here](https://dannyhatcher.com/zotero-obsidian-integration/).
 #### Zotero
 I assume that you already have Zotero installed and you know how to use it (add items to your database, attach pdfs to items, read and annotate pdfs).
 
 **Install Better BibTex Add on:**
 You need to install the Better BibTex Addon for Zotero. You can find the latest release and a 5-step installation guide [here](https://retorque.re/zotero-better-bibtex/installation/).
 #### Zotero integration community plugin
-In this vault the Zotero-Obsidian integration plugin is already installed and set up to work with the folder structure. If you want to set up everything from the beginning, refer to the step-by-step guide linked above. However, you still need to manually download the PDF utility that allows you to extract annotations from the Zotero PDFs. Go to `Settings -> Community Plugins -> Zotero Integration` and download the PDF utility (see screenshot below)
+In this vault the plugin is already installed and set up to work with the folder structure. If you want to set up everything from the beginning, refer to the step-by-step guide linked above. In any case, you still need to manually download the PDF utility that allows you to extract annotations from the Zotero PDFs. Go to **Settings -> Community Plugins -> Zotero Integration** and download the PDF utility (see screenshot below)
 
 ![[Pasted image 20230827200942.png]]
 ### Create literature notes
 Now you are ready to test your workflow. 
 > [!tip] Hint
-> Make sure that Zotero is also running, otherwise you will get an error mesage
+> Make sure that Zotero is also open, otherwise you will get an error mesage
 
-To create a new literature open the command palette (`Ctrl/Cmd + P`) and look for "Zotero Integration: Create Literature Note"
+To create a new literature note open the command palette (`Ctrl + P`) and look for "Zotero Integration: Create Literature Note"
 
 ![[Pasted image 20230827201353.png]]
 
-When you hit enter, the Zotero item picker should open up and Obsidian will wait for you to pick the item you want to create a literature note from. Note that sometimes the Zotero picker will note open on top of your Obsidian, so you might have to check the open Zotero Windows in your toolbar.
+When you hit enter, the Zotero item picker should open up and Obsidian will wait for you to pick the item you want to create a literature note from. Note that sometimes the Zotero picker will not open on top of your Obsidian, so you might have to bring the picker to the front from your toolbar.
 Just start typing and when you found the right paper, select it and hit enter:
 
 ![[Pasted image 20230827201737.png]]
 
-Now Obsidian will automatically create a literature note for you in the folder `04_Literature/library` and open the file for you. The fill contains all the metadata about the paper and a section on annotations that were extracted from the PDF. The template also contains a "My Notes" section where you can add additional notes by hand.
+Now Obsidian will automatically create a literature note for you in the folder `04_Literature/library` and open this file for you. The file contains metadata about the paper and a section on annotations that were extracted from the PDF. There is also a section called "My Notes" where you can add additional notes by hand.
 ### More information
 - [Blogpost with a detailed example workflow](https://medium.com/@alexandraphelan/an-updated-academic-workflow-zotero-obsidian-cffef080addd)
 - [Step by step guide](https://dannyhatcher.com/zotero-obsidian-integration/)for the correct setup of Zotero and the plugin with a lot of screenshots and an optional Youtube Video.
 
 ## 🧠Knowledge management with Zettelkasten
-
+*Plugins used:* Templater
