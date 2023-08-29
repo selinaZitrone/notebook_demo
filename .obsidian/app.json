@@ -2,5 +2,6 @@
   "spellcheck": true,
   "spellcheckLanguages": null,
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "showInlineTitle": false
 }
