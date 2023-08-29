@@ -3,6 +3,8 @@ id: 020230828110893
 created: 2023-08-28 
 tags: zettel
 ---
+# TRACE protocol
+
 > [!info]
 > This page was last modified on `$= dv.current().file.mtime.toFormat("MMMM d, yyyy")` at `$= dv.current().file.mtime.toFormat("h:mm a")`.
 
