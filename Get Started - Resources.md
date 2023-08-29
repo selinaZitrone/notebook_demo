@@ -1,62 +1,37 @@
-## 📦 Further community plugins 
+Here you find our suggestions for additional community plugins that we find useful. Also we link to some tutorials and online resources that were helpful for us to set up our Obsidian.
+## 🧩 Community plugins 
 
-### Dataview
-We already use the dataview plugin within this vault, but if you want to learn more about it, here is the plugin documentations https://blacksmithgu.github.io/obsidian-dataview/ and a tutorial: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8yjNuiSBSAM?si=vWXDnhN5YhFdlz7N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-### Icon folder
-Adds Icons to your folders. 
-
-### Advanced tables 
-Helps to work with tables more easily in markdown.
-
-### Advanced slides
-Helps to create slides.
-
-### Natural language dates
-More easy use of dates with commands like `@tomorrow` creating automatically next days date. 
-
-### Obsidian git
-Do version control from inside Obsidian for your vault.
-
-### Pandoc plugin 
-The plugin "adds command palette options to export your notes to a variety of formats including Word Documents, PDFs, ePub books, HTML websites, PowerPoints and LaTeX among (many) others."
-
-### Tag wrangler
-Rename, toggle, merge ... tags in a very easy way! 
-
-### Text generator
-"**Text Generator** is an open-source AI Assistant Tool that brings the power of Generative Artificial Intelligence to the power of knowledge creation and organisation in Obsidian.
-For example, use Text Generator to generate ideas, attractive titles, summaries, outlines, and whole paragraphs based on your knowledge database."
-You need an account for Open AI.
-
-### Tracker
-Tracks numbers within your note and helps to visualise them. 
-
+Other community plugins that we find useful for our own vaults:
+- [Settings Search](https://github.com/javalent/settings-search)A small but helpful plugin. It adds a search bar to your Obsidian settings which saves a lot of time clicking through the interface in search of settings.
+- [Icon folder](https://github.com/FlorianWoelki/obsidian-icon-folder): Add Icons to your folder names to recognize them more easily
+- [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)Edit and create Excalidraw drawings (can also be later used for collaborative work online)
+- [Advanced Tables](https://github.com/tgrosinger/advanced-tables-obsidian) Add improved navigation, formatting and manipulation to markdown tables (this is important because otherwise markdown tables are terrible to work with)
+- [QuickAdd](https://github.com/chhoumann/quickadd)Quickly add new notes or content and define Macros to speed up your common workflows.
+- [Obsidian Git](https://github.com/denolehov/obsidian-git) Version control your vault from inside Obsidian to synchronise and backup.
+- [Pandoc](https://github.com/OliverBalfour/obsidian-pandoc) Provides export options to formats like DOCx, PDF, ...
+- [Tag Wrangler](https://github.com/pjeby/tag-wrangler) Rename, toggle, merge tags in a very easy way.
+- [Text generator](https://github.com/nhaouari/obsidian-textgenerator-plugin)Connect your vault with Open AI to use GPT-3/4 to summarize ideas, generate titles, summaries, outlines, ...
+- [Advanced Slides](https://github.com/MSzturc/obsidian-advanced-slides) Easily create a slide deck from Obsidian.
+- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)Already in use but if you want to learn more about it, check out the documentation or this tutorial: 
+![](https://www.youtube.com/embed/8yjNuiSBSAM?si=vWXDnhN5YhFdlz7N)
 
 ### Plugin recommendations by Danny Hatcher
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2zhnb9KwmtA?si=Pf-Z3Y76ghBW0xo7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
+![](https://www.youtube.com/embed/2zhnb9KwmtA?si=Pf-Z3Y76ghBW0xo7)
 ### Plugin recommendations by From Sergio
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cBm95iCcX2E?si=uPCKGg32Q2V1AXvx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![](https://www.youtube.com/embed/cBm95iCcX2E?si=uPCKGg32Q2V1AXvx)
 
-
-## 🎞 Recommended YouTube Channel about Obsidian 
+## 🎞 Recommended YouTube Channels
 For more information and inspiration on what you can do with Obsidian check out the following YouTube Channels providing insights from basic to advanced use of Obsidian:
 - https://www.youtube.com/@nicolevdh
 - https://www.youtube.com/@DannyTalksTech 
 - https://www.youtube.com/@FromSergio
 
-## 💌 Further Obsidian content
+## 💌 More Obsidian content
 - Eleanor Konik writes amazing, short newsletters about new obsidian developments. Highly recommended to subscribe for keeping up-to-date: https://www.eleanorkonik.com/tag/roundup/
 - The **Obsidian Forum**: https://forum.obsidian.md/ 
 - The **Obsidian Hub** - a common vault by the Obsidian community: https://publish.obsidian.md/hub/00+-+Start+here 
 
 ## 📓 About academic note taking within Obsidian
-
 - https://ilyashabanov.substack.com/p/note-taking-system-for-success-in
 - https://betterhumans.pub/how-to-boost-your-productivity-for-scientific-research-using-obsidian-fe85c98c63c8
 - https://elizabethbutlermd.com/obsidian-notes/
-
