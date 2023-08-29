@@ -1,5 +1,12 @@
-# 🪙 Get Started - Resources 
+# Get Started - Resources 
 Here you find our suggestions for additional community plugins that we find useful. Also we link to some tutorials and online resources that were helpful for us to set up our Obsidian.
+
+## 💎Obsidian Basics
+
+For more information and inspiration on what you can do with Obsidian check out the following tutorial by Nicole van der Hoeven:
+
+![](https://www.youtube.com/embed/OUrOfIqvGS4)
+
 ## 🧩 Community plugins 
 
 Other community plugins that we find useful for our own vaults:

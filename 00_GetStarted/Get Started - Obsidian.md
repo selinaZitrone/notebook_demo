@@ -1,14 +1,7 @@
 # Get Started - Obsidian
 Welcome to your Obsidian Notebook. 🎉
 
-This file helps you to get started with Obsidian in general. We explain the basic functionality like markdown syntax, Obsidian settings and functionality. For details on this template vault and its specific workflows, have a look at [[Get Started - Vault]], for further resources on learning cool Obsidian things have  look at [[Get Started - Resources]].
-
-For more information and inspiration on what you can do with Obsidian check out the following tutorial by Nicole van der Hoeven:
-
-#💡 Sollen wir das Video erst später verlinken? Die Leute sollen ja erstmal unsere Sachen lesen und dann in Youtube abdriften
-
-![](https://www.youtube.com/embed/OUrOfIqvGS4)
-
+This file helps you to get started with Obsidian in general. We explain the basic functionality like markdown syntax, Obsidian settings and functionality. For details on this template vault and its specific workflows, have a look at [[Get Started - Vault]], for further resources on learning cool Obsidian things have look at [[Get Started - Resources]].
 ## 🖥The Obsidian editor
 
 ### Navigating Obsidian
