@@ -20,7 +20,7 @@ A simple version can look like this:
 
 A more detailed version of the entire modelling process can look like this:
 
-![[Pasted image 20230828113216.png]]
+![[image-6-x38-y489.png]]
 # References
 
 [[SchmolkeEcologicalmodels2010]]

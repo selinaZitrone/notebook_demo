@@ -2,8 +2,8 @@
 *Plugins used*: Calendar, Templater, Periodic Notes, Tasks
 
 The idea of periodic notes is that you use them to track your goals, tasks and work on a daily/weekly basis. In this workflow, we use two templates:
-- [[daily_template]]: Create this file every day to get an overview of your tasks and meetings on that day, but also to take notes.
-- [[weekly_template]]: Create this file every week to plan ahead what you want to focus on and get done in that week. Can also be used to review the week after it's over.
+- [[daily template]]: Create this file every day to get an overview of your tasks and meetings on that day, but also to take notes.
+- [[weekly template]]: Create this file every week to plan ahead what you want to focus on and get done in that week. Can also be used to review the week after it's over.
 ## Create a periodic note
 To create a periodic note for a day/week, first locate the calendar in your notebook (probably either the bottom left corner or in the right side bar). By clicking on a date or week a daily/weekly note is created automatically from the correct template and some information is already filled out. You can find the newly created notes in the folder `01_Journal/Daily|Weekly`. 
 ## Structure of a daily note (e.g. [[2023-08-23]])
