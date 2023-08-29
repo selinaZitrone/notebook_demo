@@ -22,5 +22,5 @@ When a task is done, you can check the checkbox. Here is an example of an open a
 - [x] Describe what done tasks are 📅 2022-12-22 ✅ 2022-12-22
 You can also use the Hotkey `Ctrl + Cmd/Alt + T` to edit tasks.
 
-In the file [[ALL OPEN TASKS]] you can find a list of all the open tasks without due date in your vault. You can periodically check this file to see which tasks you might have forgotten.
+In the file [[HOME]] you can find a list of all the open tasks without due date in your vault. You can periodically check this file to see which tasks you might have forgotten.
 
