@@ -1,3 +1,4 @@
+# README
 ![image](Attachments/title.png)
 This repository contains a template Obsidian vault for academic note-taking. It contains demo workflows, demo files and has some useful community plugins installed and configured.
 ## Purpose of the vault
