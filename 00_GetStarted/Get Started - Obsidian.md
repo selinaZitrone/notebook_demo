@@ -89,7 +89,7 @@ Be a bit careful with installing community plugins. They run through some basic 
 ## 🎁Non-essential but nice to know
 ### The graph view
 
-The graph view shows you how the files in your vault are linked with each other. For this template vault, the graph looks like this:
+The graph view shows you how the files in your vault are linked with each other. For this template vault, the full graph looks like this:
 ![[Pasted image 20230829165829.png]]
 You can open the graph view with the Hotkey `Ctrl/Cmd + G` or by clicking on the graph icon in the toolbar on the left. You can also filter your graph by tags or group them. Just explore what you can do.
 ### Canvas
@@ -108,9 +108,6 @@ Watch this Youtube video to get more information on how to use the current versi
 The style your files nicely, you can use markdown-style callout boxes that highlight your text. Callout boxes are all written like this: `> [!keyword] title`
 Depending on the type of keyword, the boxes look different. You can chose the title however you like. If you leave it blank, a default title will be chosen.
 Here you can see examples of all callout boxes you have available:
-
-#🚧 Is this too much examples?
-#💡 Haha, so viele gibts da? Ne, ich finde es super die alle mal zu sehen :) 
 
 > [!Note]
 

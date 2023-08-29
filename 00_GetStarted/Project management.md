@@ -14,7 +14,7 @@ The project file that is created from the template can now be filled with life (
 - **↪ Notes & Mentions**: Automatically lists all non-meeting files that link to the project via the project tag.
 ## Add files to the project
 Project-related notes go in the `02_Projects/notes` folder if they are notes, or `02_Projects/canvas` folder if they are canvas files (look [[Get Started - Obsidian#Canvas|here]] for more info on canvas). 
-Create a new note in the `notes/` directory and apply the [[note_template]] to it (see [[#📝Create note from template]] for instructions). When the note is created, make sure to first follow the instructions on top of the new note:
+Create a new note in the `notes/` directory and apply the [[note_template]] to it (see [[Create note from template]] for instructions). When the note is created, make sure to first follow the instructions on top of the new note:
 - set a link to project file below
 - set a project name as a tag in the YAML header/properties
 Only then, you note will be correctly linked to your template.
@@ -22,7 +22,7 @@ Only then, you note will be correctly linked to your template.
 Now you can start writing down your notes on the bottom of the file. On top, you have tow call-out boxes for convenience: The first one automatically summarizes all tasks that you might have in your file and in the second one you can summarize the note content in a few sentences.
 
 ## Add a meeting to the project
-Meeting notes go in the `03_Meetings/` folder and they follow the naming convention `YYYY-MM-DD meeting name`. To create a meeting, create a new note in the meeting folder, name the note correctly and apply the [[meeting template]]  (see [[#📝Create note from template]] for instructions).
+Meeting notes go in the `03_Meetings/` folder and they follow the naming convention `YYYY-MM-DD meeting name`. To create a meeting, create a new note in the meeting folder, name the note correctly and apply the [[meeting template]]  (see [[Create note from template]] for instructions).
 When the note is created, make sure to first follow the instructions on top of the new meeting note:
 - set a link to project file below
 - set a project name as a tag in the YAML header/properties

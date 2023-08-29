@@ -18,7 +18,7 @@ Now you are ready to test your workflow.
 > [!tip] Hint
 > Make sure that Zotero is also open, otherwise you will get an error mesage
 
-To create a new literature note open the command palette (`Ctrl + P`) and look for "Zotero Integration: Create Literature Note"
+To create a new literature note open the command palette (`Ctrl/Cmd + P`) and look for "Zotero Integration: Create Literature Note"
 
 ![[Pasted image 20230827201353.png]]
 
