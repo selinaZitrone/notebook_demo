@@ -4,6 +4,8 @@ This file helps you to get started with Obsidian in general. We explain the basi
 
 For more information and inspiration on what you can do with Obsidian check out the following tutorial by Nicole van der Hoeven:
 
+#💡 Sollen wir das Video erst später verlinken? Die Leute sollen ja erstmal unsere Sachen lesen und dann in Youtube abdriften
+
 ![](https://www.youtube.com/embed/OUrOfIqvGS4)
 
 # 🖥The Obsidian editor
@@ -17,8 +19,8 @@ In the figure below, you find some important sections of the Obsidian window and
 Please note that you can also change the appearance of Obsidian. It might e.g. be that the calendar in your editor is included in the right sidebar. But you can just drag and drop elements from the sidebar to other locations to change the appearance of the editor.
 ## Settings
 
-Check out yourself which settings you can change for your Obsidian vault. Just click on the gear icon in the bottom left to see what you can do.
-Settings can be changed for general Obsidian things (Appearance, Hotkeys, ...) and for the core and community plugins.
+Check out yourself which settings you can change for your Obsidian vault. Just click on the gear icon (⚙) in the bottom left to see what you can do. 
+Settings can be changed for general Obsidian things (Appearance, Hotkeys ...) and for the core and community plugins.
 
 ## Hotkeys 
 You can customize and view all hotkeys in the Obsidian settings. 
@@ -86,12 +88,13 @@ Another way to link files is by using Tags like #tag written as `#tag` .
 
 There are two types of plugins that you can use to increase the functionality of Obsidian and customize your workflows:
 
-- Obsidian plugins: by the Obsidian developpers. Can be found under **Settings -> Core plugins**
-- Community plugins: developed by the community and need to be searched and installed. Can be found under **Settings -> Community plugins**
+- **Obsidian plugins**: by the Obsidian developers. Can be found under **Settings -> Core plugins**
+- **Community plugins**: developed by the community and need to be searched and installed. Can be found under **Settings -> Community plugins**
 
 Be a bit careful with installing community plugins. They run through some basic checks by Obsidian but you install them at your own risk. A good rule of thumb is to install only plugins that are installed by a lot of other users (like 10s of thousands) and that are updated regularly.
 
 #🚧 Should we explain here how to install a community plugin and how to find its settings?
+#💡 Ne, das reicht so. 
 # 🎁Non-essential but nice to know
 ## The graph view
 
@@ -118,6 +121,7 @@ Depending on the type of keyword, the boxes look different. You can chose the ti
 Here you can see examples of all callout boxes you have available:
 
 #🚧 Is this too much examples?
+#💡 Haha, so viele gibts da? Ne, ich finde es super die alle mal zu sehen :) 
 
 > [!Note]
 
