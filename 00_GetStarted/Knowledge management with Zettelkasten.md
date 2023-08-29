@@ -14,5 +14,6 @@ Every Zettel has a reference section on the bottom. Here you can put a list of a
 
 ## More information
 - [Youtube video explaining the Zettelkasten method](https://www.youtube.com/watch?v=yqKspwjXu18)
-- [Video on Zettelkasten with Obsidian](https://www.youtube.com/watch?v=ziE6UExsOrs)
-- [Another video on Zettelkasten with Obsidian](https://www.youtube.com/watch?v=E6ySG7xYgjY)
+- [Great video on a minimalist Zettelkasten with Obsidian](https://www.youtube.com/watch?v=E6ySG7xYgjY)
+- [Another video on Zettelkasten with Obsidian](https://www.youtube.com/watch?v=ziE6UExsOrs)
+

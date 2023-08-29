@@ -40,7 +40,6 @@ The following community plugins are preinstalled:
 - **[Templater](https://silentvoid13.github.io/Templater/)**: The Templater plugin is used to create the templates for all workflows.
 - **[Zotero integration](https://github.com/mgmeyers/obsidian-zotero-integration)**: With this plugin you can connect your Zotero library with Obsidian and create literature notes, citations and bibliographies. Used in
 	- [[Literature notes from Zotero]]
-
 ## 🧰Workflows
 
 In the following files, you find descriptions of the most important workflows that we implemented in this vault. Of course you can adapt them as you best fits your needs. 
