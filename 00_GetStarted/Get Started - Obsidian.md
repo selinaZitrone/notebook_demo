@@ -29,8 +29,8 @@ Some very essential ones (for my workflow) are:
 - `Ctrl/Cmd + O` : Open quick switcher to open and search for files.
 - `Ctrl/Cmd + P` : Open command palette to access commands within Obsidian.
 - `Ctrl/Cmd + Shift + F` : Search in all files of Obsidian. 
-- `Ctrl/Cmd + Alt + T` : Edit Tasks. 
-- `Alt + E` : Select and insert template in note
+- `Ctrl/Cmd + Alt/Option + T` : Edit Tasks. 
+- `Alt/Option + E` : Select and insert template in note
 
 ## ✍ Take notes in Obsidian
 

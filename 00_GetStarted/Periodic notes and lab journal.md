@@ -20,7 +20,7 @@ To create a periodic note for a day/week, first locate the calendar in your note
 When a task is done, you can check the checkbox. Here is an example of an open and a closed task:
 - [ ] Describe what "tasks" are 📅 2023-08-28 
 - [x] Describe what done tasks are 📅 2022-12-22 ✅ 2022-12-22
-You can also use the Hotkey `Ctrl + Cmd/Alt + T` to edit tasks.
+You can also use the Hotkey `Ctrl/Cmd + Alt/Option + T` to edit tasks.
 
 In the file [[HOME]] you can find a list of all the open tasks without due date in your vault. You can periodically check this file to see which tasks you might have forgotten.
 
