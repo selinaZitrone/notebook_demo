@@ -2,8 +2,7 @@
 tag: weeklyReview
 week: {{date:ww}} 
 ---
-<< [[<% tp.date.now("gggg-[W]ww", -1, tp.file.title, "gggg-[W]ww") %>|last week]] | [[<% tp.date.now("gggg-[W]ww", 8, tp.file.title, "gggg-[W]ww") %>|next week]] >> 
-# 🚀 Week {{date:ww}}
+# Week {{date:ww}}
 
 ## 🏔 Goals
 - Goal 1

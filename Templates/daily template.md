@@ -2,10 +2,7 @@
 date: {{date}}
 tags: dailyLog
 ---
-
 # {{date:dddd, D MMMM, YYYY}}
-
-<< [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>| Yesterday ]] | [[<% tp.date.now("gggg-[W]ww", 0, tp.file.title, "YYYY-MM-DD") %>]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>| Tomorrow ]] >>
 
 ## 🧑‍🤝‍🧑 Meetings 
 ```dataview
