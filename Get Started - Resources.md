@@ -1,3 +1,4 @@
+# 🪙 Get Started - Resources 
 Here you find our suggestions for additional community plugins that we find useful. Also we link to some tutorials and online resources that were helpful for us to set up our Obsidian.
 ## 🧩 Community plugins 
 
