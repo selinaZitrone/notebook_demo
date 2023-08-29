@@ -86,16 +86,11 @@ There are two types of plugins that you can use to increase the functionality of
 - **Community plugins**: developed by the community and need to be searched and installed. Can be found under **Settings -> Community plugins**
 
 Be a bit careful with installing community plugins. They run through some basic checks by Obsidian but you install them at your own risk. A good rule of thumb is to install only plugins that are installed by a lot of other users (like 10s of thousands) and that are updated regularly.
-
-#🚧 Should we explain here how to install a community plugin and how to find its settings?
-#💡 Ne, das reicht so. 
 ## 🎁Non-essential but nice to know
 ### The graph view
 
 The graph view shows you how the files in your vault are linked with each other. For this template vault, the graph looks like this:
-
-![[Pasted image 20221223105640.png]]
-
+![[Pasted image 20230829165829.png]]
 You can open the graph view with the Hotkey `Ctrl/Cmd + G` or by clicking on the graph icon in the toolbar on the left. You can also filter your graph by tags or group them. Just explore what you can do.
 ### Canvas
 Canvas is an Obsidian core plugin.
