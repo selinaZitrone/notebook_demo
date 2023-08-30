@@ -1,20 +1,20 @@
 {
 	"nodes":[
-		{"type":"group","id":"c4b0766e9bda547d","x":-277,"y":-249,"width":440,"height":1440,"label":"Files from vault"},
 		{"type":"group","id":"196f358ccac07e88","x":-1012,"y":-249,"width":680,"height":889,"label":"Embed videos or websites"},
+		{"type":"group","id":"c4b0766e9bda547d","x":-277,"y":-249,"width":440,"height":1289,"label":"Files from vault"},
 		{"type":"group","id":"2ce57bac4e092ce1","x":222,"y":-252,"width":343,"height":303,"label":"No files, just text"},
-		{"type":"file","file":"02_Projects/notes/A note in project A.md","id":"ee553beed76addc8","x":-257,"y":-229,"width":400,"height":400},
 		{"type":"text","text":"Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.","id":"18469519e3b6217c","x":242,"y":-232,"width":250,"height":102,"color":"3"},
 		{"type":"text","text":"Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.","id":"4c551e4177f2398a","x":242,"y":-75,"width":250,"height":106,"color":"3"},
-		{"type":"file","file":"03_Meetings/2022-12-21 example.md","id":"873a371da0efc24c","x":-257,"y":326,"width":400,"height":400,"color":"5"},
-		{"type":"file","file":"Attachments/Pasted image 20221223115939.png","id":"73a0f36fc7c3e24c","x":-257,"y":798,"width":400,"height":347},
+		{"type":"file","file":"03_Meetings/2023-08-23 example meeting.md","id":"873a371da0efc24c","x":-257,"y":326,"width":400,"height":400,"color":"5"},
+		{"type":"file","file":"Attachments/Pasted image 20230828162255.png","id":"73a0f36fc7c3e24c","x":-257,"y":798,"width":400,"height":200},
 		{"type":"link","url":"https://www.youtube.com/watch?v=G3DJKk4ivq4","id":"82ad828d1b11d3a9","x":-992,"y":-193,"width":640,"height":360},
-		{"type":"link","url":"https://obsidian.md/canvas","id":"f70155daed6568d4","x":-992,"y":220,"width":640,"height":400}
+		{"type":"link","url":"https://obsidian.md/canvas","id":"f70155daed6568d4","x":-992,"y":220,"width":640,"height":400},
+		{"type":"file","file":"02_Projects/project_A.md","id":"ee553beed76addc8","x":-257,"y":-193,"width":400,"height":400}
 	],
 	"edges":[
-		{"id":"9e7ded3c474e4606","fromNode":"ee553beed76addc8","fromSide":"bottom","toNode":"873a371da0efc24c","toSide":"top","label":"MEETING"},
 		{"id":"f600ac34d91e742f","fromNode":"4c551e4177f2398a","fromSide":"top","toNode":"18469519e3b6217c","toSide":"bottom"},
 		{"id":"ab0fab41447ea809","fromNode":"18469519e3b6217c","fromSide":"right","toNode":"4c551e4177f2398a","toSide":"right"},
-		{"id":"a0ecd50db8e63dcd","fromNode":"73a0f36fc7c3e24c","fromSide":"top","toNode":"873a371da0efc24c","toSide":"bottom"}
+		{"id":"a0ecd50db8e63dcd","fromNode":"73a0f36fc7c3e24c","fromSide":"top","toNode":"873a371da0efc24c","toSide":"bottom"},
+		{"id":"9e7ded3c474e4606","fromNode":"ee553beed76addc8","fromSide":"bottom","toNode":"873a371da0efc24c","toSide":"top","label":"MEETING"}
 	]
 }
