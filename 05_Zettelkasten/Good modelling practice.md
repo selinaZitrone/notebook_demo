@@ -1,9 +1,9 @@
 ---
 id: 020230828110837  
 created: 2023-08-28 
-tags: zettel
+tags: idea
 ---
-# Good modelling practice
+# 📎 Good modelling practice
 
 > [!info]
 > This page was last modified on `$= dv.current().file.mtime.toFormat("MMMM d, yyyy")` at `$= dv.current().file.mtime.toFormat("h:mm a")`.
@@ -26,6 +26,7 @@ The elements of good modelling practice span the whole [[Modelling cycle]] and i
 - Comprehensive documentation
 	- Can be peer-reviewed to ensure it's concise and clear
 
-# References
+---  
+# 📚References
 
 [[SchmolkeEcologicalmodels2010]]

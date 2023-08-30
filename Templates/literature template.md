@@ -14,8 +14,8 @@ created: {{date | format("YYYY-MM-DD HH:MM")}}
 tags: 
 ---
 # title:: {{title}}
-
 authors:: {{authors}}
+
 {% for t in tags %}#paper/{{t.tag}}{% if not loop.last %}, {% endif %}{% endfor %}
 
 [Open Zotero Entry](zotero://open-pdf/library/items/{{itemKey}})
@@ -39,6 +39,7 @@ authors:: {{authors}}
 {% if annots.length > 0 %}
 #### Imported on {{importDate | format("YYYY-MM-DD h:mm a")}}
 {% for annot in annots -%}{%- if annot.annotatedText %}
+
 >[!quote] Quote
 {{annot.annotatedText}} [(p. {{annot.pageLabel}})](zotero://open-pdf/library/items/{{annot.attachment.itemKey}}?page={{annot.pageLabel}}&annotation={{annot.id}})
 

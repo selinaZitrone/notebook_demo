@@ -1,9 +1,9 @@
 ---
 id: 020230828110893  
 created: 2023-08-28 
-tags: zettel
+tags: idea
 ---
-# TRACE protocol
+# 📎 TRACE protocol
 
 > [!info]
 > This page was last modified on `$= dv.current().file.mtime.toFormat("MMMM d, yyyy")` at `$= dv.current().file.mtime.toFormat("h:mm a")`.
@@ -34,6 +34,7 @@ This can be in the form of an [[ODD protocol]]
 - Uncertainty analysis
 - Recommendation
 
-# References
+--- 
+# 📚 References
 
 [[SchmolkeEcologicalmodels2010]]

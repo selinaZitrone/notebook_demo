@@ -1,9 +1,9 @@
 ---
 id: 020230828110857  
 created: 2023-08-28 
-tags: zettel
+tags: idea
 ---
-# Modelling cycle
+# 📎 Modelling cycle
 
 > [!info]
 > This page was last modified on `$= dv.current().file.mtime.toFormat("MMMM d, yyyy")` at `$= dv.current().file.mtime.toFormat("h:mm a")`.
@@ -21,6 +21,8 @@ A simple version can look like this:
 A more detailed version of the entire modelling process can look like this:
 
 ![[image-6-x38-y489.png]]
-# References
+
+---
+# 📚 References
 
 [[SchmolkeEcologicalmodels2010]]

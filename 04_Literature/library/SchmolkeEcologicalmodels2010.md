@@ -14,8 +14,8 @@ created: 2010-01-01 00:01
 tags: 
 ---
 # title:: Ecological models supporting environmental decision making: A strategy for the future
-
 authors:: Amelie Schmolke, Pernille Thorbek, Donald L. DeAngelis, Volker Grimm
+
 #paper/TRACE, #paper/good_modelling_practice
 
 [Open Zotero Entry](zotero://open-pdf/library/items/AHNY9GZV)[Read PDF in Zotero](zotero://open-pdf/library/items/WCW8QXGA)
@@ -36,6 +36,7 @@ authors:: Amelie Schmolke, Pernille Thorbek, Donald L. DeAngelis, Volker Grimm
 
 >[!quote] Quote
 Ecological models are developed for different purposes: exploration of ideas and theories, demonstration of concepts, understanding of general principles and patterns, predictions of ecosystem behaviors, and many more [15,16]. [(p. 479)](zotero://open-pdf/library/items/WCW8QXGA?page=479&annotation=5IGMEA4Q)
+
 >[!quote] Quote
 The format of TRACE documentations follows the sequence of tasks in the modeling cycle (Figure 2). Accordingly, this format can also be used for modeling notebooks; [(p. 483)](zotero://open-pdf/library/items/WCW8QXGA?page=483&annotation=4PISFUYT)
 
