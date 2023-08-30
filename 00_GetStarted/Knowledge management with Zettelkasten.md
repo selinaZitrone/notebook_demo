@@ -13,6 +13,7 @@ In every Zettel, you have a callout box on top for "Related topic". Here you can
 Every Zettel has a reference section on the bottom. Here you can put a list of all the references you used to write this Zettel. You can e.g. link a literature note or an external resource.
 
 ## More information
+- [A nice blogpost explaining the Zettelkasten methd](https://zenkit.com/en/blog/a-beginners-guide-to-the-zettelkasten-method/)
 - [Youtube video explaining the Zettelkasten method](https://www.youtube.com/watch?v=yqKspwjXu18)
 - [Great video on a minimalist Zettelkasten with Obsidian](https://www.youtube.com/watch?v=E6ySG7xYgjY)
 - [Another video on Zettelkasten with Obsidian](https://www.youtube.com/watch?v=ziE6UExsOrs)
