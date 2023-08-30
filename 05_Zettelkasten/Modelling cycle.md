@@ -12,7 +12,7 @@ tags: idea
 >  [[Good modelling practice]]
 >  [[TRACE protocol]]
 
-The modelling cycle describes the stages of model development. dd
+The modelling cycle describes the stages of model development.
 
 A simple version can look like this:
 
