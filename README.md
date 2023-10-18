@@ -12,6 +12,11 @@ The vault is set up to
 - ...
 The vault contains readme files within the Folder "00_GetStarted" that help you learn about Obsidian and the vault and that point you to further resources about Obsidian and customization.
 ## Get started
+
+In this video, we show you how to get started with the demo vault. If you prefer written instructions, you can find them below the video:
+
+[![Watch the video](https://img.youtube.com/vi/PyiHAw8bIIc/hqdefault.jpg)](https://www.youtube.com/embed/PyiHAw8bIIc)
+
 To get started with the vault you need to do the following:
 
 1. Download and install Obsidian for your machine from [here](https://obsidian.md/)
