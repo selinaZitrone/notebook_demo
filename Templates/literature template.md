@@ -32,7 +32,9 @@ authors:: {{authors}}
 > 
 
 # My notes
-  
+{% persist "notes" %}
+{% endpersist %}
+
 # Annotations
 {% persist "annotations" %}
 {% set annots = annotations | filterby("date", "dateafter", lastImportDate) -%}
