@@ -5,5 +5,7 @@
   "dataview",
   "emoji-shortcodes",
   "templater-obsidian",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "obsidian-style-settings",
+  "obsidian-minimal-settings"
 ]
