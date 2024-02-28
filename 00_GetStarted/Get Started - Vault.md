@@ -13,7 +13,7 @@ This vault comes with some suggested folders and workflows. However, every perso
 	- **notes**: For project notes
 - **03_Meetings**: Notes for meetings
 - **04_Literature**: Here you store and manage your literature notes. 
-	- **library:** A subdirectory for your literature notes that you create from your Zotero data base (see [[Literature notes from Zotero]] 
+	- **library:** A subdirectory for your literature notes that you create from your Zotero data base (see [[Literature notes from Zotero]] )
 	- The `Overview` file automatically creates an overview of all the literature notes in your vault.
 - **05_Zettelkasten:** Contains linked notes of your thoughts, ideas and concepts to build your knowledgebase in a Zettelkasten way.
 - **Attachments**: All attachments (e.g. PDFs, figures, ...) will automatically be stored here and can be embedded in the notes. 
