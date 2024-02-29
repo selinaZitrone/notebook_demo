@@ -14,7 +14,7 @@ week: {{date:ww}}
 (due before {{friday:gggg-MM-DD}}) OR (due {{friday:gggg-MM-DD}})
 not done
 group by due
-path does not include 1_Laborbuch/2_Weekly
+path does not include 01_Journal/Weekly
 short mode
 ```
 

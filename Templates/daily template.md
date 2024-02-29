@@ -26,7 +26,7 @@ short mode
 
 #### Today
 ```tasks
-path does not include 1_Laborbuch/1_Daily
+path does not include 01_Journal/Daily
 happens on {{date}}
 short mode
 group by folder
