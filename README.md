@@ -28,3 +28,5 @@ To get started with the vault you can follow the instructions below or you can f
 
 If you have any questions or comments, please [create an issue](https://github.com/selinaZitrone/notebook_demo/issues/new) on Github.
 Please also feel free to contribute to the project via pull requests.
+
+For a more detailed get started video on Obsidian with examples for personal, project and knowledge management, have a look at [this Youtube video](https://youtu.be/WPAV1SNkdFg?feature=shared).
