@@ -2,6 +2,8 @@
 Here you find our suggestions for additional community plugins that we find useful. Also we link to some tutorials and online resources that were helpful for us to set up our Obsidian.
 ## 💎Obsidian Basics
 
+Have a look at the [official Obsidian documentation](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian). It describes all the features and workflows in detail starting with the basics like how to install Obsidian and create your first vault, but also more advanced things.
+
 For more information and inspiration on what you can do with Obsidian check out the following tutorial by Nicole van der Hoeven:
 
 ![](https://www.youtube.com/embed/OUrOfIqvGS4)
