@@ -1,7 +1,7 @@
 ---
 name: project_A
-start: 2023-08-01
-completed: 
+start: 2025-08-01
+completed:
 tags:
   - project
 collaborators:

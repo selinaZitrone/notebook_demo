@@ -1,6 +1,6 @@
 ---
-title: 2023-08-23 example meeting
-date: 2023-08-23
+title: 2025-11-17 example meeting
+date: 2025-11-17
 startTime: 08:00
 endTime: 09:00
 attendees:
@@ -16,9 +16,9 @@ topic: Planing meeting
 ## 💼 Agenda
 - Talk about next project steps
 - Define next goals
-- [ ] Invite Hans-Jochen for the meeting 📅 2023-08-22
-- [x] Prepare example event 📅 2023-08-22 ✅ 2023-08-27
-- [x] Make coffee for the example event 📅 2023-08-23 ✅ 2023-08-23
+- [ ] Invite Hans-Jochen for the meeting 📅 2025-11-16 
+- [x] Prepare example event 📅 2023-08-22 ✅ 2025-11-15
+- [x] Make coffee for the example event 📅 2025-11-17 ✅ 2025-11-17
 
 ## 🌞 Summary
 ```dataviewjs
@@ -44,8 +44,8 @@ dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
 ## 📒 Meeting notes
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 - At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-- [ ] Talk to Ferdinand about next steps 📅 2023-08-24
-- [ ] Send notes from meeting to all collaborators 📅 2023-08-23
+- [ ] Talk to Ferdinand about next steps 📅 2025-11-17
+- [ ] Send notes from meeting to all collaborators 📅 2025-11-17
 
 - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 
