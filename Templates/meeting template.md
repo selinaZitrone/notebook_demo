@@ -16,7 +16,7 @@ topic:
 
 ## 🌞 Summary
 
-> [!NOTE] Todo
+> [!info] Todo
 > 
 > ```tasks
 > path includes {{query.file.path}}

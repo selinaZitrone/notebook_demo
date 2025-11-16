@@ -23,7 +23,7 @@ topic: Planing meeting
 ## 🌞 Summary
 
 
-> [!NOTE] Todo
+> [!info] Todo
 > 
 > ```tasks
 > path includes {{query.file.path}}
