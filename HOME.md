@@ -12,12 +12,24 @@
 - Number of Zettel:  `$=dv.pages('"05_Zettelkasten"').length`
 
 ## 📊 Projects
-```dataview
-TABLE 
-	collaborators, 
-	description,
-	state
-FROM #project AND -"Templates"
+```base
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("project")
+        - file.folder != "Templates"
+    order:
+      - file.name
+      - collaborators
+      - description
+      - state
+    columnSize:
+      file.name: 149
+      note.collaborators: 148
+      note.description: 297
+
 ```
 
 ## ✅ Open tasks without due date
