@@ -1,5 +1,8 @@
 ---
+title: "{{title | escape}}"
+authors: {{authors}}
 year: {{date | format("YYYY")}}
+type: {{itemType}}
 citekey: {{citekey}}
 journal: {{publicationTitle}}
 volume: {{volume}}
@@ -10,13 +13,12 @@ location: {{place}}
 pages: {{pages}}
 DOI: {{DOI}}
 ISBN: {{ISBN}}
-created: {{date | format("YYYY-MM-DD HH:MM")}}
-tags: 
+date added: {{exportDate | format("DD/MM/YYYY")}}
 ---
-# title:: {{title}}
-authors:: {{authors}}
+# {{title}}
+{{authors}}
 
-{% for t in tags %}#paper/{{t.tag}}{% if not loop.last %}, {% endif %}{% endfor %}
+{% if hashTags %}{{hashTags}}{% endif %}
 
 [Open Zotero Entry](zotero://open-pdf/library/items/{{itemKey}})
 
@@ -25,13 +27,13 @@ authors:: {{authors}}
 > [!Cite] Citation  
 > {{bibliography}}  
 
-> [!Abstract]  
+> [!Abstract]-
 > {%- if abstractNote %}  
 > {{abstractNote}}
 > {%- endif -%}
 > 
 
-# My notes
+# Reading notes
 {% persist "notes" %}
 {% endpersist %}
 
