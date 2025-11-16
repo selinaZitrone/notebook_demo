@@ -29,11 +29,9 @@ Amelie Schmolke, Pernille Thorbek, Donald L. DeAngelis, Volker Grimm
 >  
 > Ecological models are important for environmental decision support because they allow the consequences of alternative policies and management scenarios to be explored. However, current modeling practice is unsatisfactory. A literature review shows that the elements of good modeling practice have long been identified but are widely ignored. The reasons for this might include lack of involvement of decision makers, lack of incentives for modelers to follow good practice, and the use of inconsistent terminologies. As a strategy for the future, we propose a standard format for documenting models and their analyses: transparent and comprehensive ecological modeling (TRACE) documentation. This standard format will disclose all parts of the modeling process to scrutiny and make modeling itself more efficient and coherent. © 2010 Elsevier Ltd.
 >> 
-
 # Reading notes
 %% begin notes %%
 %% end notes %%
-
 # Annotations
 %% begin annotations %%
 
@@ -53,6 +51,10 @@ The format of TRACE documentations follows the sequence of tasks in the modeling
 ![[04_Literature/library/images/schmolkeEcologicalModelsSupporting2010/image-6-x38-y489.png]]
 
 >[!annot] Comment
->Modelling notebooks can be used as a basis for the TRACE documentation.%% end annotations %%
+>Modelling notebooks can be used as a basis for the TRACE documentation.#### Imported on 2025-11-16 8:07 pm
 
-%% Import Date: 2025-11-16T19:43:00.008+01:00 %%
+
+>[!quote] Quote
+Standardizing the model documentation does not standardize the model approaches themselves but assures that all modeling aspects are readily available for scrutiny [(p. 481)](zotero://open-pdf/library/items/M9D5QSED?page=481&annotation=97ZIWIWQ)%% end annotations %%
+
+%% Import Date: 2025-11-16T20:59:12.094+01:00 %%

@@ -32,16 +32,16 @@ date added: {{exportDate | format("DD/MM/YYYY")}}
 > {{abstractNote}}
 > {%- endif -%}
 > 
-
 # Reading notes
 {% persist "notes" %}
 {% endpersist %}
-
 # Annotations
 {% persist "annotations" %}
 {% set annots = annotations | filterby("date", "dateafter", lastImportDate) -%}
 {% if annots.length > 0 %}
+
 #### Imported on {{importDate | format("YYYY-MM-DD h:mm a")}}
+
 {% for annot in annots -%}{%- if annot.annotatedText %}
 
 >[!quote] Quote
