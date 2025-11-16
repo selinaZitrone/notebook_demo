@@ -31,22 +31,45 @@ const query = `
 
 
 ## 🧑‍🤝‍🧑 Meetings
-```dataview
-TABLE 
-	dateformat(date, "yyyy-MM-dd") as date, attendees, topic
-FROM #meeting
-WHERE contains(tags, this.file.name)
-SORT date DESC
+```base
+views:
+  - type: table
+	name: Default view
+	order:
+	  - file.name
+	  - date
+	  - attendees
+	  - topic
+	sort:
+	  - column: date
+	    direction: desc
+	filters:
+	  and:
+	    - file.hasTag("meeting")
+	    - or:
+	        - file.hasTag(this.file.name)
+	        - file.hasLink(this.file)
 ```
 
-
-
 ## ↪ Notes & Mentions 
-```dataview
-table 
-	dateformat(date, "yyyy-MM-dd") as date, tags
-FROM [[#this.file.name]] AND -#meeting
-SORT date DESC
+```base
+views:
+  - type: table
+	name: Default view
+	order:
+	  - file.name
+	  - date
+	  - tags
+	sort:
+	  - column: date
+	    direction: desc
+	filters:
+	  and:
+	    - not:
+	        - file.hasTag("meeting")
+	    - or:
+	        - file.hasTag(this.file.name)
+	        - file.hasLink(this.file)
 ```
 
 
