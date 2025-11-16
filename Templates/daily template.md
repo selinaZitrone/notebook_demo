@@ -5,15 +5,35 @@ tags: dailyLog
 # {{date:dddd, D MMMM, YYYY}}
 
 ## 🧑‍🤝‍🧑 Meetings 
-```dataview
-TABLE
-  topic AS "topic",
-  startTime AS "start",
-  endTime AS "end"
-FROM #meeting
-WHERE date =  date("{{date}}") OR contains(file.name, "{{date}}")
-SORT start DESC
+```base
+views:
+  - type: table
+    name: Default view
+    order:
+      - file.name
+      - topic
+      - startTime
+      - endTime
+    sort:
+      - column: start
+        direction: desc
+    columnSize:
+      note.topic: 359
+      note.startTime: 76
+    filters:
+      and:
+        - file.hasTag("meeting")
+        - or:
+            - date == date(this.file.name)
+            - file.name.contains(date(this.file.name).toString())
+display:
+  file.name: Name
+  topic: topic
+  startTime: start
+  endTime: end
+
 ```
+
 
 ## 🐾 Tasks
 
