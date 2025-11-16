@@ -21,22 +21,15 @@ topic: Planing meeting
 - [x] Make coffee for the example event 📅 2025-11-17 ✅ 2025-11-17
 
 ## 🌞 Summary
-```dataviewjs
-function callout(text, type) {
-    const allText = `> [!${type}]\n` + text;
-    const lines = allText.split('\n');
-    return lines.join('\n> ') + '\n'
-}
 
-const query = `
-short mode
-path includes ${dv.current().file.path}
-# you can add any number of extra Tasks instructions, for example:
-# group by heading
-`;
 
-dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
-```
+> [!NOTE] Todo
+> 
+> ```tasks
+> path includes {{query.file.path}}
+> short mode
+>```
+
 > [!Summary]
 > - Lorem ipsum dolor sit amet.
 > - consetetur sadipscing elitr
