@@ -13,22 +13,19 @@ Before you start writing your note remember:
 project::
 
 ## 🧭 Summary 
-```dataviewjs
-function callout(text, type) {
-    const allText = `> [!${type}]\n` + text;
-    const lines = allText.split('\n');
-    return lines.join('\n> ') + '\n'
-}
 
-const query = `
-short mode
-path includes ${dv.current().file.path}
-`;
+> [!info] Todo
+> 
+> ```tasks
+> path includes {{query.file.path}}
+> short mode
+>```
 
-dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
-```
+
 > [!Summary]
-> - [ ] write Summary
+>
 
 
 ## 📒 Notes
+
+ - [ ] write Summary

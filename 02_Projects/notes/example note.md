@@ -9,20 +9,15 @@ tags:
 project:: [[project_A]]
 
 ## 🧭 Summary 
-```dataviewjs
-function callout(text, type) {
-    const allText = `> [!${type}]\n` + text;
-    const lines = allText.split('\n');
-    return lines.join('\n> ') + '\n'
-}
 
-const query = `
-short mode
-path includes ${dv.current().file.path}
-`;
+> [!info] Todo
+> 
+> ```tasks
+> path includes {{query.file.path}}
+> short mode
+>```
 
-dv.paragraph(callout('```tasks\n' + query + '\n```', 'todo'));
-```
+
 > [!Summary]
 > 
 Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer
