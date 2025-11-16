@@ -30,9 +30,17 @@ short mode
 - x
 
 ### 🌴 Daily log files of the week
-```dataview
-list
-FROM #dailyLog
-WHERE date >= date("{{monday:YYYY-MM-DD}}") AND date <= date("{{friday:YYYY-MM-DD}}")
+```base
+views:
+  - type: table
+    name: Default view
+    order:
+      - file.name
+    filters:
+      and:
+        - file.hasTag("dailyLog")
+        - date >= date("{{monday:YYYY-MM-DD}}")
+        - date <= date("{{friday:YYYY-MM-DD}}")
+display:
+  file.name: Name
 ```
-
