@@ -37,11 +37,22 @@ group by folder
 
 ## 🗺 Changed files
 
-```dataview
-LIST 
-	dateformat(file.mtime, "HH:mm") 
-WHERE striptime(file.mtime) = this.file.day WHERE file.name != this.file.name 
-SORT file.mtime DESC
+```base
+filters:
+  and:
+    - file.name != this.file.name
+    - file.mtime.date() == date(this.file.name)
+views:
+  - type: list
+    name: Changed Today
+    sort:
+      - property: file.mtime
+        direction: DESC
+    properties:
+      file.name: {}
+      formula.time:
+        formula: formatDate(file.mtime, "HH:mm")
+
 ```
 
 
