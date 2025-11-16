@@ -1,4 +1,4 @@
-# 📚 Literature
+# 📚 Literature notes
 
 ```base
 views:
@@ -16,4 +16,10 @@ views:
     sort:
       - property: year
         direction: ASC
+    columnSize:
+      file.name: 100
+      note.journal: 109
+      note.title: 244
+      note.authors: 348
+
 ```
