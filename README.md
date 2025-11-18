@@ -10,18 +10,18 @@ The vault is set up to
 - Connect your Zotero database, and generate literature notes
 - Manage your knowledge using a Zettelkasten system
 - ...
-The vault contains readme files within the Folder "00_GetStarted" that help you learn about Obsidian and the vault and that point you to further resources about Obsidian and customization.
+The vault contains readme files in the folder "00_GetStarted" that help you learn about Obsidian and the vault and that point you to further resources.
 ## Get started
 
-To get started with the vault you can follow the instructions below or you can follow [this tutorial on Youtube](https://youtu.be/PyiHAw8bIIc):
+To get started with the vault on your own machine you can follow the instructions below or you can follow [this tutorial on Youtube](https://youtu.be/PyiHAw8bIIc):
 
-1. Download and install Obsidian for your machine from [here](https://obsidian.md/)
+1. Download and install Obsidian [here](https://obsidian.md/)
 2. Download this *notebook_demo* (Click on the green "Code" button on the top right and download as ZIP)
-3. Unzip the *notebook_demo* and save it at a convenient location on your machine. If you want backup and/or synchronization, this location can e.g. be a Cloud storage location.
-4. Rename the folder that contains the *notebook_demo* if you want
-5. Start Obsidian, click **"Open folder as vault"** and select the folder containing the downloaded notebook. Obsidian will then open the notebook as a vault.
-6. While opening, a warning will pop up asking for permission to enable plugins that the vault contains. These plugins are necessary for the full functionality of the vault. Here, you can read more about the plugin security policy of Obsidian: [here](https://help.obsidian.md/Extending+Obsidian/Plugin+security)
-7. On the left of the Obsidian editor in the folder "00_GetStarted", you find notes that help you to get started with Obsidian and your vault. Read these before you start working with the vault:
+3. Unzip the *notebook_demo* and save it at a convenient location on your machine. If you want backup and/or synchronization, this location can also be a Cloud storage location.
+4. Optional: rename the folder *notebook_demo* to how you want to name your own notebook.
+5. Start Obsidian, click **"Open folder as vault"** and select the folder with the demo notebook. Obsidian will open the notebook as a vault.
+6. During opening, a warning will ask for permission to enable the plugins that the vault contains. These plugins are necessary for the full functionality of the vault. Here, you can read more about the plugin security policy of Obsidian [here](https://help.obsidian.md/Extending+Obsidian/Plugin+security). Our vault only contains popular plugin that have high download numbers.
+7. In the Obsidian file browser (left sidebar), you find the folder "00_GetStarted". In there, you find notes that help you to get started with Obsidian and the demo vault. Read these before you start working with the vault:
 	1. [[Get Started - Obsidian]] to find out more about Obsidian in general and how to use it.
 	2. [[Get Started - Vault]] to find out which settings and plugins were used in the demo vault and how to use them properly. Here we link to files describing workflows that we pre-configured in the demo vault ([[Create note from template]], [[Project management]], [[Knowledge management with Zettelkasten]], [[Literature notes from Zotero]], [[Periodic notes and lab journal]]) 
 	4. [[Get Started - Resources]] lists more resources and tips for additional customization. You can have a look at this when you are a bit more familiar with the vault and Obsidian.

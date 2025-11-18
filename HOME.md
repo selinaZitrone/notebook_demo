@@ -5,12 +5,6 @@
 - **Vault purpose**: *write something*
 - **Vault origin**: This vault is based on a [Demo Vault](https://github.com/selinaZitrone/notebook_demo) by S. Baldauf and A. Lewerentz.
 
-## 📈 Vault statistics
-- File Count: `$=dv.pages().length`
-- Daily Journal Entries: `$=dv.pages('"01_Journal/Daily"').length`
-- Weekly Journal Entries: `$=dv.pages('"01_Journal/Weekly"').length`
-- Number of Zettel:  `$=dv.pages('"05_Zettelkasten"').length`
-
 ## 📊 Projects
 ```base
 views:
