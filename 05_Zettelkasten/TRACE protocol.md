@@ -5,9 +5,6 @@ tags: idea
 ---
 # 📎 TRACE protocol
 
-> [!info]
-> This page was last modified on `$= dv.current().file.mtime.toFormat("MMMM d, yyyy")` at `$= dv.current().file.mtime.toFormat("h:mm a")`.
-
 > [!example] Related topics
 > [[ODD protocol]]
 > [[Good modelling practice]]
