@@ -4,6 +4,9 @@
   "historyPriority": true,
   "historyLimit": 100,
   "history": [
+    ":open_file_folder:",
+    ":spiral_notepad:",
+    ":card_file_box:",
     ":chart_with_upwards_trend:",
     ":white_check_mark:",
     ":house_with_garden:",
@@ -13,7 +16,6 @@
     ":exclamation:",
     ":bulb:",
     ":gear:",
-    ":open_file_folder:",
     ":open_book:",
     ":construction:",
     ":calendar:",
