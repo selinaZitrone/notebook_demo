@@ -1,7 +1,9 @@
 # 📚Literature notes from Zotero
 *Plugins used:* Templater, Zotero integration
 
-In this vault, you can find an [[schmolkeEcologicalModelsSupporting2010|example of a literature note]] that was created using the [[literature template|vault template for literature notes]]. Before you can follow the workflow, you need to setup the connection with Zotero.
+In this vault, you can find an [[schmolkeEcologicalModelsSupporting2010|example of a literature note]] that was created using the [[literature template|vault template for literature notes]]. 
+
+Before you can follow the workflow, you need to setup the connection with Zotero.
 ## First time Setup
 You can find a more detailed walk-through of every step with screenshots [here](https://dannyhatcher.com/zotero-obsidian-integration/).
 ### Zotero
