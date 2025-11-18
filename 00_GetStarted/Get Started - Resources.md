@@ -1,5 +1,5 @@
 # Get Started - Resources 
-Here you find our suggestions for additional community plugins that we find useful. Also we link to some tutorials and online resources that were helpful for us to set up our Obsidian.
+Here you find links to helpful documentation and some suggestions for plugins and helpful tutorials.
 ## 💎Obsidian Basics
 
 Have a look at the [official Obsidian documentation](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian). It describes all the features and workflows in detail starting with the basics like how to install Obsidian and create your first vault, but also more advanced things.
@@ -11,6 +11,7 @@ For more information and inspiration on what you can do with Obsidian check out 
 ## 🧩 Community plugins 
 
 Other community plugins that we find useful for our own vaults:
+
 - [Settings Search](https://github.com/javalent/settings-search)A small but helpful plugin. It adds a search bar to your Obsidian settings which saves a lot of time clicking through the interface in search of settings.
 - [Icon folder](https://github.com/FlorianWoelki/obsidian-icon-folder): Add Icons to your folder names to recognize them more easily
 - [Excalidraw](https://github.com/zsviczian/obsidian-excalidraw-plugin)Edit and create Excalidraw drawings (can also be later used for collaborative work online)
@@ -21,9 +22,7 @@ Other community plugins that we find useful for our own vaults:
 - [Tag Wrangler](https://github.com/pjeby/tag-wrangler) Rename, toggle, merge tags in a very easy way.
 - [Text generator](https://github.com/nhaouari/obsidian-textgenerator-plugin)Connect your vault with Open AI to use GPT-3/4 to summarize ideas, generate titles, summaries, outlines, ...
 - [Advanced Slides](https://github.com/MSzturc/obsidian-advanced-slides) Easily create a slide deck from Obsidian.
-- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)Already in use but if you want to learn more about it, check out the documentation or this tutorial: 
-![](https://www.youtube.com/embed/8yjNuiSBSAM?si=vWXDnhN5YhFdlz7N)
-
+- [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)Very powerful to automatically create data bases from notes. Now largely superseded by [Obsidian Bases](https://www.youtube.com/embed/OUrOfIqvGS4)
 ### Plugin recommendations by Danny Hatcher
 ![](https://www.youtube.com/embed/2zhnb9KwmtA?si=Pf-Z3Y76ghBW0xo7)
 ### Plugin recommendations by From Sergio
