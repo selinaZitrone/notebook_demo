@@ -2,10 +2,7 @@
   "calendar",
   "obsidian-tasks-plugin",
   "periodic-notes",
-  "dataview",
   "emoji-shortcodes",
   "templater-obsidian",
-  "obsidian-zotero-desktop-connector",
-  "obsidian-style-settings",
-  "obsidian-minimal-settings"
+  "obsidian-zotero-desktop-connector"
 ]
